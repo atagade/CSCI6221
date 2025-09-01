@@ -1,0 +1,41 @@
+.vscode
+.idea
+
+# Go binaries
+/bin
+/*.exe
+/*.exe~
+/*.dll
+/*.so
+/*.dylib
+
+# Go test binary
+*.test
+
+# Vendor directory
+/vendor/
+
+# Dependency directories (including Gopkg)
+Gopkg.lock
+Gopkg.toml
+go.sum
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# macOS cache files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# macOS application support files
+*.swp
+*.swo
+
+# JetBrains IDEs
+*.iml
+*.ipr
+*.iws
+out/
