@@ -34,6 +34,18 @@ func (s *Sim) GetStock() string {
 	return s.Stock
 }
 
+func (s *Sim) handleTrade(t orderbook.Trade) {
+	s.agentsMu.RLock()
+	defer s.agentsMu.RUnlock()
+	
+	if buyer, ok := s.Agents[t.BuyerID]; ok {
+		buyer.EventChan <- agent.FillEvent{OrderID: t.BuyerOrderID, Price: t.Price, Quantity: t.Quantity, IsBuy: true}
+	}
+	if seller, ok := s.Agents[t.SellerID]; ok {
+		seller.EventChan <- agent.FillEvent{OrderID: t.SellerOrderID, Price: t.Price, Quantity: t.Quantity, IsBuy: false}
+	}
+	atomic.AddInt64(&s.tradeCount, 1)
+}
 
 func (s *Sim) GetTradeCount() int64 {
 	return atomic.LoadInt64(&s.tradeCount)

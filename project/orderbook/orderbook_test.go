@@ -30,6 +30,70 @@ func TestMatchLimit(t *testing.T) {
 	}
 }
 
+func TestMatchMarket(t *testing.T) {
+	ob := New()
+
+	o1 := &order.Order{ID: "1", AgentID: "a", Side: order.Sell, Type: order.Limit, Price: 100, Quantity: 10, Stock: "GOOG", Time: time.Now()}
+	ob.Submit(o1)
+
+	o2 := &order.Order{ID: "2", AgentID: "b", Side: order.Buy, Type: order.Market, Quantity: 15, Stock: "GOOG", Time: time.Now()}
+	trades := ob.Submit(o2)
+
+	if len(trades) != 1 {
+		t.Errorf("expected 1 trade, got %d", len(trades))
+	}
+	if trades[0].Quantity != 10 {
+		t.Error("should fill 10, rest canceled for IOC")
+	}
+	if ob.GetBestAsk() != 0 {
+		t.Error("book should be empty")
+	}
+}
+
+func TestCancel(t *testing.T) {
+	ob := New()
+
+	o1 := &order.Order{ID: "1", AgentID: "a", Side: order.Sell, Type: order.Limit, Price: 100, Quantity: 10, Stock: "GOOG", Time: time.Now()}
+	ob.Submit(o1)
+
+	canceled := ob.Cancel("1")
+	if !canceled {
+		t.Error("cancel failed")
+	}
+
+	o2 := &order.Order{ID: "2", AgentID: "b", Side: order.Buy, Type: order.Market, Quantity: 5, Stock: "GOOG", Time: time.Now()}
+	trades := ob.Submit(o2)
+	if len(trades) != 0 {
+		t.Error("should no match after cancel")
+	}
+}
+
+func TestPartialFill(t *testing.T) {
+	ob := New()
+
+	o1 := &order.Order{ID: "1", AgentID: "a", Side: order.Sell, Type: order.Limit, Price: 100, Quantity: 10, Stock: "GOOG", Time: time.Now()}
+	ob.Submit(o1)
+
+	o2 := &order.Order{ID: "2", AgentID: "b", Side: order.Buy, Type: order.Limit, Price: 105, Quantity: 7, Stock: "GOOG", Time: time.Now()}
+	trades := ob.Submit(o2)
+
+	if len(trades) != 1 {
+		t.Errorf("expected 1 trade, got %d", len(trades))
+	}
+	if trades[0].Quantity != 7 {
+		t.Error("should partial fill 7")
+	}
+	if ob.GetBestAsk() != 100 {
+		t.Error("level still exists")
+	}
+	// remaining qty in book: 3
+	o3 := &order.Order{ID: "3", AgentID: "c", Side: order.Buy, Type: order.Market, Quantity: 5, Stock: "GOOG", Time: time.Now()}
+	trades2 := ob.Submit(o3)
+	if len(trades2) != 1 || trades2[0].Quantity != 3 {
+		t.Error("should fill remaining 3")
+	}
+}
+
 func TestBestPriceTracking(t *testing.T) {
 	ob := New()
 
