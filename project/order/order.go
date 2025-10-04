@@ -15,3 +15,14 @@ const (
 	Limit OrderType = "limit"
 	Market OrderType = "market"
 )
+
+type Order struct {
+	ID       string
+	Stock    string
+	Side     Side
+	Type     OrderType
+	Price    float64
+	Quantity float64
+	Time     time.Time
+	AgentID  string
+}
