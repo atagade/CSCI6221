@@ -214,16 +214,19 @@ func (mc *MetricsCollector) GetMetrics() PerformanceMetrics {
 		}
 		avgTradeLatency = total / time.Duration(len(mc.tradeLatencies))
 	}
-	// Calculate peak memory usage
-	for _, mem := range mc.memoryUsage {
-		if mem.HeapAlloc > peakMemory {
-			peakMemory = mem.HeapAlloc
+	
+	// Find peak memory usage
+	for _, snapshot := range mc.memoryUsage {
+		if snapshot.HeapAlloc > peakMemory {
+			peakMemory = snapshot.HeapAlloc
 		}
 	}
+	
 	// Calculate total GC pauses
 	if len(mc.gcStats) > 0 {
 		totalGCPauses = mc.gcStats[len(mc.gcStats)-1].PauseTotalNs
-	}			
+	}
+	
 	// Create histograms
 	orderLatencyHist := mc.createLatencyHistogram(mc.orderLatencies)
 	tradeLatencyHist := mc.createLatencyHistogram(mc.tradeLatencies)

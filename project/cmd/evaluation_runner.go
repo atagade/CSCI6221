@@ -20,7 +20,6 @@ var (
 	generateCharts = flag.Bool("charts", true, "generate visualization charts")
 )
 
-
 func main() {
 	flag.Parse()
 
@@ -32,13 +31,71 @@ func main() {
 		return
 	}
 
-	if *fullBenchmark {
-		runFullBenchmarkSuite()
-	} else if *quickTest {
+	// Run evaluation based on flags
+	if *quickTest {
 		runQuickEvaluation()
 	} else if *scalabilityTest {
 		runScalabilityEvaluation()
+	} else if *fullBenchmark {
+		runFullBenchmarkSuite()
+	} else {
+		// Default: run basic comparison
+		runBasicComparison()
 	}
+
+	// Generate charts if requested
+	if *generateCharts {
+		generateVisualizationCharts()
+	}
+
+	fmt.Printf("\nEvaluation completed. Results saved to: %s\n", *outputDir)
+}
+
+// runBasicComparison runs a basic concurrent vs sequential comparison
+func runBasicComparison() {
+	fmt.Println("\n=== Running Basic Concurrency Comparison ===")
+	
+	numAgents := 10
+	duration := 3 * time.Second
+	
+	// Run comparison
+	comparison := evaluation.RunConcurrencyComparison(numAgents, duration)
+	
+	// Print results
+	evaluation.PrintComparisonReport(comparison)
+	
+	// Save results
+	saveComparisonResults(comparison, "basic_comparison.json")
+}
+
+// runQuickEvaluation runs quick tests for rapid feedback
+func runQuickEvaluation() {
+	fmt.Println("\n=== Running Quick Evaluation Tests ===")
+	
+	tests := []struct {
+		name      string
+		agents    int
+		duration  time.Duration
+	}{
+		{"Small", 5, 2 * time.Second},
+		{"Medium", 15, 3 * time.Second},
+		{"Large", 25, 4 * time.Second},
+	}
+	
+	var results []evaluation.BenchmarkResult
+	
+	for _, test := range tests {
+		fmt.Printf("Running %s test (%d agents, %v)...\n", test.name, test.agents, test.duration)
+		result := evaluation.RunConcurrentBenchmark(test.agents, test.duration)
+		results = append(results, result)
+		
+		fmt.Printf("  - Throughput: %.2f trades/sec\n", result.TradesPerSecond)
+		fmt.Printf("  - Memory: %.2f MB\n", result.PeakMemoryMB)
+		fmt.Printf("  - Goroutines: %d\n", result.MaxGoroutines)
+	}
+	
+	// Save results
+	saveResults(results, "quick_evaluation.json")
 }
 
 // runScalabilityEvaluation tests performance across different scales
