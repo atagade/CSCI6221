@@ -1,0 +1,708 @@
+
+(cg) E:\Github\CourseSoftware\CSCI6221_FinalPoject\project>go run main.go
+========== CDA Exchange Simulator with Performance Analytics ==========
+Configuration: 50 Random + 10 Market Makers + 50 Trend Followers for 30s
+Starting simulation with Go concurrency features...
+Launched 110 concurrent goroutines (1 per agent) - showcasing Go's lightweight concurrency
+
+========== Simulation Results ==========
+
+========== PERFORMANCE METRICS SUMMARY ==========
+Duration: 30.5393223s
+Total Trades: 0
+Total Orders: 0
+Total Cancellations: 0
+Trades/Second: 0.00
+Orders/Second: 0.00
+Average Order Latency: 0s
+Average Trade Latency: 0s
+P95 Order Latency: 0s
+P99 Order Latency: 0s
+Peak Memory Usage: 3.26 MB
+Max Goroutines: 223
+Number of CPUs: 12
+Total GC Pauses: 0.00 ms
+=================================================
+
+========== Go Concurrency Advantages ==========
+Goroutine Efficiency:
+  - 223 lightweight goroutines vs 110 OS threads (typical in other languages)
+  - Memory per goroutine: ~15.0 KB (vs ~8MB per OS thread)
+
+Performance Characteristics:
+  - Achieved 112.81 trades/second with concurrent processing
+  - Average latency: 0s (low due to Go's efficient scheduler)
+  - GC pause time: 0.00 ms (Go's concurrent GC advantage)
+
+Comparison to Other Languages:
+  - Python: Limited by GIL, would need multiprocessing (higher overhead)
+  - Java: Heavier threads, higher memory usage, longer GC pauses
+  - C++: Manual thread management, complex synchronization
+  - Go: Built-in concurrency, efficient goroutines, simple syntax
+===============================================
+
+Simulation completed successfully in 30.539s
+
+(cg) E:\Github\CourseSoftware\CSCI6221_FinalPoject\project>go run main.go -random=5 -mm=2 -trend=3 -dur=5s
+========== CDA Exchange Simulator with Performance Analytics ==========
+Configuration: 5 Random + 2 Market Makers + 3 Trend Followers for 5s
+Starting simulation with Go concurrency features...
+Launched 10 concurrent goroutines (1 per agent) - showcasing Go's lightweight concurrency
+
+========== Simulation Results ==========
+
+========== PERFORMANCE METRICS SUMMARY ==========
+Duration: 5.5240092s
+Total Trades: 0
+Total Orders: 0
+Total Cancellations: 0
+Trades/Second: 0.00
+Orders/Second: 0.00
+Average Order Latency: 0s
+Average Trade Latency: 0s
+P95 Order Latency: 0s
+P99 Order Latency: 0s
+Peak Memory Usage: 0.67 MB
+Max Goroutines: 24
+Number of CPUs: 12
+Total GC Pauses: 0.00 ms
+=================================================
+
+========== Go Concurrency Advantages ==========
+Goroutine Efficiency:
+  - 24 lightweight goroutines vs 10 OS threads (typical in other languages)
+  - Memory per goroutine: ~28.6 KB (vs ~8MB per OS thread)
+
+Performance Characteristics:
+  - Achieved 11.40 trades/second with concurrent processing
+  - Average latency: 0s (low due to Go's efficient scheduler)
+  - GC pause time: 0.00 ms (Go's concurrent GC advantage)
+
+Comparison to Other Languages:
+  - Python: Limited by GIL, would need multiprocessing (higher overhead)
+  - Java: Heavier threads, higher memory usage, longer GC pauses
+  - C++: Manual thread management, complex synchronization
+  - Go: Built-in concurrency, efficient goroutines, simple syntax
+===============================================
+
+Simulation completed successfully in 5.524s
+
+(cg) E:\Github\CourseSoftware\CSCI6221_FinalPoject\project>go run main.go -random=50 -mm=20 -trend=30 -dur=60s
+========== CDA Exchange Simulator with Performance Analytics ==========
+Configuration: 50 Random + 20 Market Makers + 30 Trend Followers for 1m0s
+Starting simulation with Go concurrency features...
+Launched 100 concurrent goroutines (1 per agent) - showcasing Go's lightweight concurrency
+
+========== Simulation Results ==========
+
+========== PERFORMANCE METRICS SUMMARY ==========
+Duration: 1m0.6356733s
+Total Trades: 0
+Total Orders: 0
+Total Cancellations: 0
+Trades/Second: 0.00
+Orders/Second: 0.00
+Average Order Latency: 0s
+Average Trade Latency: 0s
+P95 Order Latency: 0s
+P99 Order Latency: 0s
+Peak Memory Usage: 3.67 MB
+Max Goroutines: 203
+Number of CPUs: 12
+Total GC Pauses: 0.00 ms
+=================================================
+
+========== Go Concurrency Advantages ==========
+Goroutine Efficiency:
+  - 203 lightweight goroutines vs 100 OS threads (typical in other languages)
+  - Memory per goroutine: ~18.5 KB (vs ~8MB per OS thread)
+
+Performance Characteristics:
+  - Achieved 138.58 trades/second with concurrent processing
+  - Average latency: 0s (low due to Go's efficient scheduler)
+  - GC pause time: 0.00 ms (Go's concurrent GC advantage)
+
+Comparison to Other Languages:
+  - Python: Limited by GIL, would need multiprocessing (higher overhead)
+  - Java: Heavier threads, higher memory usage, longer GC pauses
+  - C++: Manual thread management, complex synchronization
+  - Go: Built-in concurrency, efficient goroutines, simple syntax
+===============================================
+
+Simulation completed successfully in 1m0.635s
+
+(cg) E:\Github\CourseSoftware\CSCI6221_FinalPoject\project>go run main.go -random=20 -mm=5 -trend=200 -dur=60s
+========== CDA Exchange Simulator with Performance Analytics ==========
+Configuration: 20 Random + 5 Market Makers + 200 Trend Followers for 1m0s
+Starting simulation with Go concurrency features...
+Launched 225 concurrent goroutines (1 per agent) - showcasing Go's lightweight concurrency
+
+========== Simulation Results ==========
+
+========== PERFORMANCE METRICS SUMMARY ==========
+Duration: 1m0.8483404s
+Total Trades: 0
+Total Orders: 0
+Total Cancellations: 0
+Trades/Second: 0.00
+Orders/Second: 0.00
+Average Order Latency: 0s
+Average Trade Latency: 0s
+P95 Order Latency: 0s
+P99 Order Latency: 0s
+Peak Memory Usage: 6.53 MB
+Max Goroutines: 453
+Number of CPUs: 12
+Total GC Pauses: 0.56 ms
+=================================================
+
+========== Go Concurrency Advantages ==========
+Goroutine Efficiency:
+  - 453 lightweight goroutines vs 225 OS threads (typical in other languages)
+  - Memory per goroutine: ~14.8 KB (vs ~8MB per OS thread)
+
+Performance Characteristics:
+  - Achieved 64.75 trades/second with concurrent processing
+  - Average latency: 0s (low due to Go's efficient scheduler)
+  - GC pause time: 0.56 ms (Go's concurrent GC advantage)
+
+Comparison to Other Languages:
+  - Python: Limited by GIL, would need multiprocessing (higher overhead)
+  - Java: Heavier threads, higher memory usage, longer GC pauses
+  - C++: Manual thread management, complex synchronization
+  - Go: Built-in concurrency, efficient goroutines, simple syntax
+===============================================
+
+Simulation completed successfully in 1m0.848s
+
+(cg) E:\Github\CourseSoftware\CSCI6221_FinalPoject\project>go run main.go -random=30 -mm=100 -trend=20 -dur=180s
+========== CDA Exchange Simulator with Performance Analytics ==========
+Configuration: 30 Random + 100 Market Makers + 20 Trend Followers for 3m0s
+Starting simulation with Go concurrency features...
+Launched 150 concurrent goroutines (1 per agent) - showcasing Go's lightweight concurrency
+
+========== Simulation Results ==========
+
+========== PERFORMANCE METRICS SUMMARY ==========
+Duration: 3m0.8517255s
+Total Trades: 0
+Total Orders: 0
+Total Cancellations: 0
+Trades/Second: 0.00
+Orders/Second: 0.00
+Average Order Latency: 0s
+Average Trade Latency: 0s
+P95 Order Latency: 0s
+P99 Order Latency: 0s
+Peak Memory Usage: 5.10 MB
+Max Goroutines: 303
+Number of CPUs: 12
+Total GC Pauses: 0.00 ms
+=================================================
+
+========== Go Concurrency Advantages ==========
+Goroutine Efficiency:
+  - 303 lightweight goroutines vs 150 OS threads (typical in other languages)
+  - Memory per goroutine: ~17.2 KB (vs ~8MB per OS thread)
+
+Performance Characteristics:
+  - Achieved 223.84 trades/second with concurrent processing
+  - Average latency: 0s (low due to Go's efficient scheduler)
+  - GC pause time: 0.00 ms (Go's concurrent GC advantage)
+
+Comparison to Other Languages:
+  - Python: Limited by GIL, would need multiprocessing (higher overhead)
+  - Java: Heavier threads, higher memory usage, longer GC pauses
+  - C++: Manual thread management, complex synchronization
+  - Go: Built-in concurrency, efficient goroutines, simple syntax
+===============================================
+
+Simulation completed successfully in 3m0.851s
+
+(cg) E:\Github\CourseSoftware\CSCI6221_FinalPoject\project>go run main.go -random=500 -mm=100 -trend=400 -dur=60s
+========== CDA Exchange Simulator with Performance Analytics ==========
+Configuration: 500 Random + 100 Market Makers + 400 Trend Followers for 1m0s
+Starting simulation with Go concurrency features...
+Launched 1000 concurrent goroutines (1 per agent) - showcasing Go's lightweight concurrency
+
+========== Simulation Results ==========
+
+========== PERFORMANCE METRICS SUMMARY ==========
+Duration: 1m0.9045873s
+Total Trades: 0
+Total Orders: 0
+Total Cancellations: 0
+Trades/Second: 0.00
+Orders/Second: 0.00
+Average Order Latency: 0s
+Average Trade Latency: 0s
+P95 Order Latency: 0s
+P99 Order Latency: 0s
+Peak Memory Usage: 22.71 MB
+Max Goroutines: 2003
+Number of CPUs: 12
+Total GC Pauses: 0.51 ms
+=================================================
+
+========== Go Concurrency Advantages ==========
+Goroutine Efficiency:
+  - 2003 lightweight goroutines vs 1000 OS threads (typical in other languages)
+  - Memory per goroutine: ~11.6 KB (vs ~8MB per OS thread)
+
+Performance Characteristics:
+  - Achieved 1279.87 trades/second with concurrent processing
+  - Average latency: 0s (low due to Go's efficient scheduler)
+  - GC pause time: 0.51 ms (Go's concurrent GC advantage)
+
+Comparison to Other Languages:
+  - Python: Limited by GIL, would need multiprocessing (higher overhead)
+  - Java: Heavier threads, higher memory usage, longer GC pauses
+  - C++: Manual thread management, complex synchronization
+  - Go: Built-in concurrency, efficient goroutines, simple syntax
+===============================================
+
+Simulation completed successfully in 1m0.904s
+
+(cg) E:\Github\CourseSoftware\CSCI6221_FinalPoject\project>go build -o cda-simulator.exe main.go
+
+(cg) E:\Github\CourseSoftware\CSCI6221_FinalPoject\project>.\cda-simulator.exe -random=100 -mm=20 -trend=80 -dur=60s
+========== CDA Exchange Simulator with Performance Analytics ==========
+Configuration: 100 Random + 20 Market Makers + 80 Trend Followers for 1m0s
+Starting simulation with Go concurrency features...
+Launched 200 concurrent goroutines (1 per agent) - showcasing Go's lightweight concurrency
+
+========== Simulation Results ==========
+
+========== PERFORMANCE METRICS SUMMARY ==========
+Duration: 1m0.9393808s
+Total Trades: 0
+Total Orders: 0
+Total Cancellations: 0
+Trades/Second: 0.00
+Orders/Second: 0.00
+Average Order Latency: 0s
+Average Trade Latency: 0s
+P95 Order Latency: 0s
+P99 Order Latency: 0s
+Peak Memory Usage: 5.07 MB
+Max Goroutines: 403
+Number of CPUs: 12
+Total GC Pauses: 0.50 ms
+=================================================
+
+========== Go Concurrency Advantages ==========
+Goroutine Efficiency:
+  - 403 lightweight goroutines vs 200 OS threads (typical in other languages)
+  - Memory per goroutine: ~12.9 KB (vs ~8MB per OS thread)
+
+Performance Characteristics:
+  - Achieved 252.50 trades/second with concurrent processing
+  - Average latency: 0s (low due to Go's efficient scheduler)
+  - GC pause time: 0.50 ms (Go's concurrent GC advantage)
+
+Comparison to Other Languages:
+  - Python: Limited by GIL, would need multiprocessing (higher overhead)
+  - Java: Heavier threads, higher memory usage, longer GC pauses
+  - C++: Manual thread management, complex synchronization
+  - Go: Built-in concurrency, efficient goroutines, simple syntax
+===============================================
+
+Simulation completed successfully in 1m0.939s
+
+(cg) E:\Github\CourseSoftware\CSCI6221_FinalPoject\project>go run -cpuprofile=cpu.prof main.go -random=200 -mm=50 -trend=150 -dur=30s
+flag provided but not defined: -cpuprofile
+usage: go run [build flags] [-exec xprog] package [arguments...]
+Run 'go help run' for details.
+
+(cg) E:\Github\CourseSoftware\CSCI6221_FinalPoject\project>go run main.go -random=10 -mm=5 -trend=500 -dur=120s
+========== CDA Exchange Simulator with Performance Analytics ==========
+Configuration: 10 Random + 5 Market Makers + 500 Trend Followers for 2m0s
+Starting simulation with Go concurrency features...
+Launched 515 concurrent goroutines (1 per agent) - showcasing Go's lightweight concurrency
+
+========== Simulation Results ==========
+
+========== PERFORMANCE METRICS SUMMARY ==========
+Duration: 2m0.8401654s
+Total Trades: 0
+Total Orders: 0
+Total Cancellations: 0
+Trades/Second: 0.00
+Orders/Second: 0.00
+Average Order Latency: 0s
+Average Trade Latency: 0s
+P95 Order Latency: 0s
+P99 Order Latency: 0s
+Peak Memory Usage: 23.23 MB
+Max Goroutines: 1033
+Number of CPUs: 12
+Total GC Pauses: 0.51 ms
+=================================================
+
+========== Go Concurrency Advantages ==========
+Goroutine Efficiency:
+  - 1033 lightweight goroutines vs 515 OS threads (typical in other languages)
+  - Memory per goroutine: ~23.0 KB (vs ~8MB per OS thread)
+
+Performance Characteristics:
+  - Achieved 45.81 trades/second with concurrent processing
+  - Average latency: 0s (low due to Go's efficient scheduler)
+  - GC pause time: 0.51 ms (Go's concurrent GC advantage)
+
+Comparison to Other Languages:
+  - Python: Limited by GIL, would need multiprocessing (higher overhead)
+  - Java: Heavier threads, higher memory usage, longer GC pauses
+  - C++: Manual thread management, complex synchronization
+  - Go: Built-in concurrency, efficient goroutines, simple syntax
+===============================================
+
+Simulation completed successfully in 2m0.84s
+
+(cg) E:\Github\CourseSoftware\CSCI6221_FinalPoject\project>go run main.go -random=100 -mm=10 -trend=100 -dur=60s
+========== CDA Exchange Simulator with Performance Analytics ==========
+Configuration: 100 Random + 10 Market Makers + 100 Trend Followers for 1m0s
+Starting simulation with Go concurrency features...
+Launched 210 concurrent goroutines (1 per agent) - showcasing Go's lightweight concurrency
+
+========== Simulation Results ==========
+
+========== PERFORMANCE METRICS SUMMARY ==========
+Duration: 1m0.9883521s
+Total Trades: 0
+Total Orders: 0
+Total Cancellations: 0
+Trades/Second: 0.00
+Orders/Second: 0.00
+Average Order Latency: 0s
+Average Trade Latency: 0s
+P95 Order Latency: 0s
+P99 Order Latency: 0s
+Peak Memory Usage: 5.82 MB
+Max Goroutines: 423
+Number of CPUs: 12
+Total GC Pauses: 0.00 ms
+=================================================
+
+========== Go Concurrency Advantages ==========
+Goroutine Efficiency:
+  - 423 lightweight goroutines vs 210 OS threads (typical in other languages)
+  - Memory per goroutine: ~14.1 KB (vs ~8MB per OS thread)
+
+Performance Characteristics:
+  - Achieved 209.53 trades/second with concurrent processing
+  - Average latency: 0s (low due to Go's efficient scheduler)
+  - GC pause time: 0.00 ms (Go's concurrent GC advantage)
+
+Comparison to Other Languages:
+  - Python: Limited by GIL, would need multiprocessing (higher overhead)
+  - Java: Heavier threads, higher memory usage, longer GC pauses
+  - C++: Manual thread management, complex synchronization
+  - Go: Built-in concurrency, efficient goroutines, simple syntax
+===============================================
+
+Simulation completed successfully in 1m0.988s
+
+(cg) E:\Github\CourseSoftware\CSCI6221_FinalPoject\project>go run main.go -random=100 -mm=100 -trend=100 -dur=60s
+========== CDA Exchange Simulator with Performance Analytics ==========
+Configuration: 100 Random + 100 Market Makers + 100 Trend Followers for 1m0s
+Starting simulation with Go concurrency features...
+Launched 300 concurrent goroutines (1 per agent) - showcasing Go's lightweight concurrency
+
+========== Simulation Results ==========
+
+========== PERFORMANCE METRICS SUMMARY ==========
+Duration: 1m0.8181541s
+Total Trades: 0
+Total Orders: 0
+Total Cancellations: 0
+Trades/Second: 0.00
+Orders/Second: 0.00
+Average Order Latency: 0s
+Average Trade Latency: 0s
+P95 Order Latency: 0s
+P99 Order Latency: 0s
+Peak Memory Usage: 7.72 MB
+Max Goroutines: 603
+Number of CPUs: 12
+Total GC Pauses: 0.00 ms
+=================================================
+
+========== Go Concurrency Advantages ==========
+Goroutine Efficiency:
+  - 603 lightweight goroutines vs 300 OS threads (typical in other languages)
+  - Memory per goroutine: ~13.1 KB (vs ~8MB per OS thread)
+
+Performance Characteristics:
+  - Achieved 285.82 trades/second with concurrent processing
+  - Average latency: 0s (low due to Go's efficient scheduler)
+  - GC pause time: 0.00 ms (Go's concurrent GC advantage)
+
+Comparison to Other Languages:
+  - Python: Limited by GIL, would need multiprocessing (higher overhead)
+  - Java: Heavier threads, higher memory usage, longer GC pauses
+  - C++: Manual thread management, complex synchronization
+  - Go: Built-in concurrency, efficient goroutines, simple syntax
+===============================================
+
+Simulation completed successfully in 1m0.818s
+
+(cg) E:\Github\CourseSoftware\CSCI6221_FinalPoject\project>go run main.go -random=200 -mm=0 -trend=0 -dur=60s
+========== CDA Exchange Simulator with Performance Analytics ==========
+Configuration: 200 Random + 0 Market Makers + 0 Trend Followers for 1m0s
+Starting simulation with Go concurrency features...
+Launched 200 concurrent goroutines (1 per agent) - showcasing Go's lightweight concurrency
+
+========== Simulation Results ==========
+
+========== PERFORMANCE METRICS SUMMARY ==========
+Duration: 1m0.683356s
+Total Trades: 0
+Total Orders: 0
+Total Cancellations: 0
+Trades/Second: 0.00
+Orders/Second: 0.00
+Average Order Latency: 0s
+Average Trade Latency: 0s
+P95 Order Latency: 0s
+P99 Order Latency: 0s
+Peak Memory Usage: 5.10 MB
+Max Goroutines: 403
+Number of CPUs: 12
+Total GC Pauses: 0.00 ms
+=================================================
+
+========== Go Concurrency Advantages ==========
+Goroutine Efficiency:
+  - 403 lightweight goroutines vs 200 OS threads (typical in other languages)
+  - Memory per goroutine: ~13.0 KB (vs ~8MB per OS thread)
+
+Performance Characteristics:
+  - Achieved 280.34 trades/second with concurrent processing
+  - Average latency: 0s (low due to Go's efficient scheduler)
+  - GC pause time: 0.00 ms (Go's concurrent GC advantage)
+
+Comparison to Other Languages:
+  - Python: Limited by GIL, would need multiprocessing (higher overhead)
+  - Java: Heavier threads, higher memory usage, longer GC pauses
+  - C++: Manual thread management, complex synchronization
+  - Go: Built-in concurrency, efficient goroutines, simple syntax
+===============================================
+
+Simulation completed successfully in 1m0.683s
+
+(cg) E:\Github\CourseSoftware\CSCI6221_FinalPoject\project>go run main.go -random=0 -mm=0 -trend=200 -dur=60s
+========== CDA Exchange Simulator with Performance Analytics ==========
+Configuration: 0 Random + 0 Market Makers + 200 Trend Followers for 1m0s
+Starting simulation with Go concurrency features...
+Launched 200 concurrent goroutines (1 per agent) - showcasing Go's lightweight concurrency
+
+========== Simulation Results ==========
+
+========== PERFORMANCE METRICS SUMMARY ==========
+Duration: 1m0.7361731s
+Total Trades: 0
+Total Orders: 0
+Total Cancellations: 0
+Trades/Second: 0.00
+Orders/Second: 0.00
+Average Order Latency: 0s
+Average Trade Latency: 0s
+P95 Order Latency: 0s
+P99 Order Latency: 0s
+Peak Memory Usage: 6.40 MB
+Max Goroutines: 403
+Number of CPUs: 12
+Total GC Pauses: 0.52 ms
+=================================================
+
+========== Go Concurrency Advantages ==========
+Goroutine Efficiency:
+  - 403 lightweight goroutines vs 200 OS threads (typical in other languages)
+  - Memory per goroutine: ~16.3 KB (vs ~8MB per OS thread)
+
+Performance Characteristics:
+  - Achieved 0.00 trades/second with concurrent processing
+  - Average latency: 0s (low due to Go's efficient scheduler)
+  - GC pause time: 0.52 ms (Go's concurrent GC advantage)
+
+Comparison to Other Languages:
+  - Python: Limited by GIL, would need multiprocessing (higher overhead)
+  - Java: Heavier threads, higher memory usage, longer GC pauses
+  - C++: Manual thread management, complex synchronization
+  - Go: Built-in concurrency, efficient goroutines, simple syntax
+===============================================
+
+Simulation completed successfully in 1m0.736s
+
+(cg) E:\Github\CourseSoftware\CSCI6221_FinalPoject\project>go run main.go -random=0 -mm=200 -trend=0 -dur=60s
+========== CDA Exchange Simulator with Performance Analytics ==========
+Configuration: 0 Random + 200 Market Makers + 0 Trend Followers for 1m0s
+Starting simulation with Go concurrency features...
+Launched 200 concurrent goroutines (1 per agent) - showcasing Go's lightweight concurrency
+
+========== Simulation Results ==========
+
+========== PERFORMANCE METRICS SUMMARY ==========
+Duration: 1m0.79975s
+Total Trades: 0
+Total Orders: 0
+Total Cancellations: 0
+Trades/Second: 0.00
+Orders/Second: 0.00
+Average Order Latency: 0s
+Average Trade Latency: 0s
+P95 Order Latency: 0s
+P99 Order Latency: 0s
+Peak Memory Usage: 5.80 MB
+Max Goroutines: 403
+Number of CPUs: 12
+Total GC Pauses: 36.36 ms
+=================================================
+
+========== Go Concurrency Advantages ==========
+Goroutine Efficiency:
+  - 403 lightweight goroutines vs 200 OS threads (typical in other languages)
+  - Memory per goroutine: ~14.7 KB (vs ~8MB per OS thread)
+
+Performance Characteristics:
+  - Achieved 424.23 trades/second with concurrent processing
+  - Average latency: 0s (low due to Go's efficient scheduler)
+  - GC pause time: 36.36 ms (Go's concurrent GC advantage)
+
+Comparison to Other Languages:
+  - Python: Limited by GIL, would need multiprocessing (higher overhead)
+  - Java: Heavier threads, higher memory usage, longer GC pauses
+  - C++: Manual thread management, complex synchronization
+  - Go: Built-in concurrency, efficient goroutines, simple syntax
+===============================================
+
+Simulation completed successfully in 1m0.799s
+
+(cg) E:\Github\CourseSoftware\CSCI6221_FinalPoject\project>go run main.go -random=50 -mm=10 -trend=40 -dur=30s -export=metrics.json -verbose
+========== CDA Exchange Simulator with Performance Analytics ==========
+Configuration: 50 Random + 10 Market Makers + 40 Trend Followers for 30s
+Starting simulation with Go concurrency features...
+Launched 100 concurrent goroutines (1 per agent) - showcasing Go's lightweight concurrency
+[5s] Trades: 0, Orders: 0, Throughput: -0.00 t/s, Memory: 2.0 MB, Goroutines: 204
+[10s] Trades: 0, Orders: 0, Throughput: -0.00 t/s, Memory: 2.5 MB, Goroutines: 204
+[15s] Trades: 0, Orders: 0, Throughput: -0.00 t/s, Memory: 3.0 MB, Goroutines: 204
+[20s] Trades: 0, Orders: 0, Throughput: -0.00 t/s, Memory: 3.2 MB, Goroutines: 204
+[25s] Trades: 0, Orders: 0, Throughput: -0.00 t/s, Memory: 3.2 MB, Goroutines: 204
+[30s] Trades: 0, Orders: 0, Throughput: -0.00 t/s, Memory: 3.2 MB, Goroutines: 204
+
+========== Simulation Results ==========
+
+========== PERFORMANCE METRICS SUMMARY ==========
+Duration: 30.8104103s
+Total Trades: 0
+Total Orders: 0
+Total Cancellations: 0
+Trades/Second: 0.00
+Orders/Second: 0.00
+Average Order Latency: 0s
+Average Trade Latency: 0s
+P95 Order Latency: 0s
+P99 Order Latency: 0s
+Peak Memory Usage: 3.20 MB
+Max Goroutines: 204
+Number of CPUs: 12
+Total GC Pauses: 0.00 ms
+=================================================
+
+========== Go Concurrency Advantages ==========
+Goroutine Efficiency:
+  - 204 lightweight goroutines vs 100 OS threads (typical in other languages)
+  - Memory per goroutine: ~16.1 KB (vs ~8MB per OS thread)
+
+Performance Characteristics:
+  - Achieved 128.92 trades/second with concurrent processing
+  - Average latency: 0s (low due to Go's efficient scheduler)
+  - GC pause time: 0.00 ms (Go's concurrent GC advantage)
+
+Comparison to Other Languages:
+  - Python: Limited by GIL, would need multiprocessing (higher overhead)
+  - Java: Heavier threads, higher memory usage, longer GC pauses
+  - C++: Manual thread management, complex synchronization
+  - Go: Built-in concurrency, efficient goroutines, simple syntax
+===============================================
+Exporting metrics to: metrics.json
+Metrics successfully exported to: metrics.json
+Use the Python visualizer to generate charts: python visualizations/performance_visualizer.py metrics.json
+
+Simulation completed successfully in 30.81s
+
+(cg) E:\Github\CourseSoftware\CSCI6221_FinalPoject\project>python visualizations/performance_visualizer.py metrics.json
+Generating comprehensive performance report...
+Detected regular metrics data
+E:\Github\CourseSoftware\CSCI6221_FinalPoject\project\visualizations\performance_visualizer.py:122: UserWarning: Tight layout not applied. The bottom and top margins cannot be made large enough to accommodate all Axes decorations.
+  plt.tight_layout()
+Throughput chart saved to: visualizations\throughput_analysis.png
+Latency histogram saved to: visualizations\latency_histogram.png
+Memory timeline saved to: visualizations\memory_timeline.png
+
+All visualizations saved to: visualizations
+
+(cg) E:\Github\CourseSoftware\CSCI6221_FinalPoject\project>.\run_evaluation.ps1 -Mode full
+
+(cg) E:\Github\CourseSoftware\CSCI6221_FinalPoject\project>go run cmd/evaluation_runner.go --full-benchmark --output=evaluation_resul
+========== CDA Exchange Simulator Evaluation Runner ==========
+
+=== Running Full Benchmark Suite ===
+1. Concurrency Comparison Tests...
+  Running Small scale test...
+
+=== Running Concurrency Comparison ===
+Running concurrent benchmark: 10 agents for 3s
+Running sequential benchmark: 10 agents for 3s
+    Speedup: 1.00x, Efficiency: 0.00%
+  Running Medium scale test...
+
+=== Running Concurrency Comparison ===
+Running concurrent benchmark: 25 agents for 5s
+Running sequential benchmark: 25 agents for 5s
+    Speedup: 1.00x, Efficiency: 0.00%
+  Running Large scale test...
+
+=== Running Concurrency Comparison ===
+Running concurrent benchmark: 50 agents for 7s
+Running sequential benchmark: 50 agents for 7s
+    Speedup: 1.00x, Efficiency: 0.00%
+
+2. Scalability Tests...
+
+=== Running Scalability Test ===
+Running concurrent benchmark: 5 agents for 5s
+Running concurrent benchmark: 10 agents for 5s
+Running concurrent benchmark: 15 agents for 5s
+Running concurrent benchmark: 20 agents for 5s
+Running concurrent benchmark: 30 agents for 5s
+Running concurrent benchmark: 40 agents for 5s
+Running concurrent benchmark: 50 agents for 5s
+
+3. Stress Tests...
+  Running HighLoad stress test...
+Running concurrent benchmark: 100 agents for 5s
+    Throughput: 109.02 t/s, Memory: 5.68 MB
+  Running LongDuration stress test...
+Running concurrent benchmark: 30 agents for 30s
+    Throughput: 42.77 t/s, Memory: 7.24 MB
+  Running MegaLoad stress test...
+Running concurrent benchmark: 200 agents for 3s
+    Throughput: 214.26 t/s, Memory: 8.26 MB
+Comparison results saved to: evaluation_resul\full_benchmark_comparison.json
+Results saved to: evaluation_resul\full_benchmark_scalability.json
+Stress test results saved to: evaluation_resul\full_benchmark_stress.json
+Comprehensive report saved to: evaluation_resul\benchmark_report.txt
+
+=== Generating Visualization Charts ===
+Generating charts for: evaluation_resul\full_benchmark_comparison.json
+Charts generated successfully for full_benchmark_comparison.json
+Generating charts for: evaluation_resul\full_benchmark_scalability.json
+Charts generated successfully for full_benchmark_scalability.json
+Generating charts for: evaluation_resul\full_benchmark_stress.json
+Charts generated successfully for full_benchmark_stress.json
+All charts saved to: evaluation_resul\charts
+
+Evaluation completed. Results saved to: evaluation_resul
+
+(cg) E:\Github\CourseSoftware\CSCI6221_FinalPoject\project>
