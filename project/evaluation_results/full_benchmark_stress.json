@@ -1,0 +1,35 @@
+{
+  "HighLoad": {
+    "name": "Concurrent_100_agents",
+    "duration": 5955996000,
+    "total_trades": 790,
+    "trades_per_second": 132.63944435154087,
+    "avg_latency": 0,
+    "peak_memory_mb": 5.746063232421875,
+    "max_goroutines": 216,
+    "cpu_utilization": 100,
+    "gc_pause_time_ms": 0.0109
+  },
+  "LongDuration": {
+    "name": "Concurrent_30_agents",
+    "duration": 30622181100,
+    "total_trades": 1239,
+    "trades_per_second": 40.4608671065563,
+    "avg_latency": 0,
+    "peak_memory_mb": 7.357536315917969,
+    "max_goroutines": 77,
+    "cpu_utilization": 100,
+    "gc_pause_time_ms": 0.0109
+  },
+  "MegaLoad": {
+    "name": "Concurrent_200_agents",
+    "duration": 3893733300,
+    "total_trades": 833,
+    "trades_per_second": 213.93350181431276,
+    "avg_latency": 0,
+    "peak_memory_mb": 8.305145263671875,
+    "max_goroutines": 418,
+    "cpu_utilization": 100,
+    "gc_pause_time_ms": 0.6602
+  }
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Concurrent_5_agents",
+    "duration": 5708086300,
+    "total_trades": 28,
+    "trades_per_second": 4.905321771326408,
+    "avg_latency": 0,
+    "peak_memory_mb": 2.3690185546875,
+    "max_goroutines": 19,
+    "cpu_utilization": 100,
+    "gc_pause_time_ms": 0
+  },
+  {
+    "name": "Concurrent_10_agents",
+    "duration": 5695068700,
+    "total_trades": 62,
+    "trades_per_second": 10.886611429287937,
+    "avg_latency": 0,
+    "peak_memory_mb": 2.8276519775390625,
+    "max_goroutines": 30,
+    "cpu_utilization": 100,
+    "gc_pause_time_ms": 0
+  },
+  {
+    "name": "Concurrent_15_agents",
+    "duration": 5259400600,
+    "total_trades": 78,
+    "trades_per_second": 14.83058734868,
+    "avg_latency": 0,
+    "peak_memory_mb": 3.3614501953125,
+    "max_goroutines": 41,
+    "cpu_utilization": 100,
+    "gc_pause_time_ms": 0
+  },
+  {
+    "name": "Concurrent_20_agents",
+    "duration": 5873107100,
+    "total_trades": 152,
+    "trades_per_second": 25.880679070197782,
+    "avg_latency": 0,
+    "peak_memory_mb": 2.9306259155273438,
+    "max_goroutines": 53,
+    "cpu_utilization": 100,
+    "gc_pause_time_ms": 0
+  },
+  {
+    "name": "Concurrent_30_agents",
+    "duration": 5471078800,
+    "total_trades": 187,
+    "trades_per_second": 34.17973069589127,
+    "avg_latency": 0,
+    "peak_memory_mb": 3.694427490234375,
+    "max_goroutines": 73,
+    "cpu_utilization": 100,
+    "gc_pause_time_ms": 0
+  },
+  {
+    "name": "Concurrent_40_agents",
+    "duration": 5478062400,
+    "total_trades": 281,
+    "trades_per_second": 51.295509156668246,
+    "avg_latency": 0,
+    "peak_memory_mb": 3.775970458984375,
+    "max_goroutines": 94,
+    "cpu_utilization": 100,
+    "gc_pause_time_ms": 0
+  },
+  {
+    "name": "Concurrent_50_agents",
+    "duration": 5674475000,
+    "total_trades": 309,
+    "trades_per_second": 54.45437683662365,
+    "avg_latency": 0,
+    "peak_memory_mb": 4.866241455078125,
+    "max_goroutines": 115,
+    "cpu_utilization": 100,
+    "gc_pause_time_ms": 0
+  }
+]

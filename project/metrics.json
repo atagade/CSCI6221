@@ -1,5 +1,5 @@
 {
-  "duration": 30810410300,
+  "duration": 30815418000,
   "total_trades": 0,
   "total_orders": 0,
   "total_cancellations": 0,
@@ -9,2109 +9,2109 @@
   "avg_trade_latency": 0,
   "p95_order_latency": 0,
   "p99_order_latency": 0,
-  "peak_memory_usage": 3353496,
-  "max_goroutines": 204,
+  "peak_memory_usage": 3291280,
+  "max_goroutines": 205,
   "num_cpu": 12,
   "total_gc_pauses": 0,
   "memory_snapshots": [
     {
-      "timestamp": "2025-10-04T00:39:34.8837717-04:00",
-      "heap_alloc": 1720696,
-      "heap_sys": 6586368,
-      "heap_inuse": 2785280,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:35.084111-04:00",
-      "heap_alloc": 1721200,
-      "heap_sys": 6586368,
-      "heap_inuse": 2785280,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:35.2833349-04:00",
-      "heap_alloc": 1721200,
-      "heap_sys": 6586368,
-      "heap_inuse": 2785280,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:35.4844069-04:00",
-      "heap_alloc": 1740720,
-      "heap_sys": 6586368,
-      "heap_inuse": 2785280,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:35.68375-04:00",
-      "heap_alloc": 1779440,
-      "heap_sys": 6586368,
-      "heap_inuse": 2793472,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:35.8839114-04:00",
-      "heap_alloc": 1790864,
-      "heap_sys": 6586368,
-      "heap_inuse": 2809856,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:36.0838804-04:00",
-      "heap_alloc": 1819048,
-      "heap_sys": 6586368,
-      "heap_inuse": 2826240,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:36.2838675-04:00",
-      "heap_alloc": 1821544,
-      "heap_sys": 6586368,
-      "heap_inuse": 2826240,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:36.4836146-04:00",
-      "heap_alloc": 1871992,
-      "heap_sys": 6586368,
-      "heap_inuse": 2932736,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:36.6836842-04:00",
-      "heap_alloc": 1875872,
-      "heap_sys": 6586368,
-      "heap_inuse": 2932736,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:36.8839067-04:00",
-      "heap_alloc": 1893152,
-      "heap_sys": 6586368,
-      "heap_inuse": 2957312,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:37.0842375-04:00",
-      "heap_alloc": 1910520,
-      "heap_sys": 6586368,
-      "heap_inuse": 2957312,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:37.283534-04:00",
-      "heap_alloc": 1938392,
-      "heap_sys": 6586368,
-      "heap_inuse": 2957312,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:37.4836358-04:00",
-      "heap_alloc": 1944248,
-      "heap_sys": 6586368,
-      "heap_inuse": 2957312,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:37.6833673-04:00",
-      "heap_alloc": 1976504,
-      "heap_sys": 6586368,
-      "heap_inuse": 2957312,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:37.8832728-04:00",
-      "heap_alloc": 1997880,
-      "heap_sys": 6586368,
-      "heap_inuse": 2981888,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:38.0841264-04:00",
-      "heap_alloc": 2022216,
-      "heap_sys": 6586368,
-      "heap_inuse": 2981888,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:38.2835454-04:00",
-      "heap_alloc": 2023040,
-      "heap_sys": 6586368,
-      "heap_inuse": 2981888,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:38.4837713-04:00",
-      "heap_alloc": 2030240,
-      "heap_sys": 6586368,
-      "heap_inuse": 2981888,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:38.6833338-04:00",
-      "heap_alloc": 2058776,
-      "heap_sys": 6586368,
-      "heap_inuse": 3055616,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:38.8841504-04:00",
-      "heap_alloc": 2101160,
-      "heap_sys": 6586368,
-      "heap_inuse": 3121152,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:39.0837376-04:00",
-      "heap_alloc": 2116344,
-      "heap_sys": 6586368,
-      "heap_inuse": 3121152,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:39.2833572-04:00",
-      "heap_alloc": 2137576,
-      "heap_sys": 6586368,
-      "heap_inuse": 3129344,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:39.4839422-04:00",
-      "heap_alloc": 2147424,
-      "heap_sys": 6586368,
-      "heap_inuse": 3129344,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:39.6835456-04:00",
-      "heap_alloc": 2154424,
-      "heap_sys": 6586368,
-      "heap_inuse": 3129344,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:39.8838952-04:00",
-      "heap_alloc": 2191800,
-      "heap_sys": 6586368,
-      "heap_inuse": 3170304,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:40.0839164-04:00",
-      "heap_alloc": 2195064,
-      "heap_sys": 6586368,
-      "heap_inuse": 3170304,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:40.2838654-04:00",
-      "heap_alloc": 2220736,
-      "heap_sys": 6586368,
-      "heap_inuse": 3227648,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:40.4836724-04:00",
-      "heap_alloc": 2225208,
-      "heap_sys": 6586368,
-      "heap_inuse": 3227648,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:40.6839815-04:00",
-      "heap_alloc": 2262408,
-      "heap_sys": 6586368,
-      "heap_inuse": 3260416,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:40.8835166-04:00",
-      "heap_alloc": 2266816,
-      "heap_sys": 6586368,
-      "heap_inuse": 3260416,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:41.0837312-04:00",
-      "heap_alloc": 2298416,
-      "heap_sys": 6586368,
+      "timestamp": "2025-10-05T11:38:37.1698057-04:00",
+      "heap_alloc": 1743848,
+      "heap_sys": 6553600,
       "heap_inuse": 3293184,
-      "stack_inuse": 1802240,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:41.2841455-04:00",
-      "heap_alloc": 2325344,
-      "heap_sys": 6586368,
+      "timestamp": "2025-10-05T11:38:37.3698251-04:00",
+      "heap_alloc": 1757208,
+      "heap_sys": 6553600,
       "heap_inuse": 3293184,
-      "stack_inuse": 1802240,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:41.4837078-04:00",
-      "heap_alloc": 2344832,
-      "heap_sys": 6586368,
+      "timestamp": "2025-10-05T11:38:37.5693373-04:00",
+      "heap_alloc": 1760976,
+      "heap_sys": 6553600,
+      "heap_inuse": 3293184,
+      "stack_inuse": 1835008,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:38:37.7698486-04:00",
+      "heap_alloc": 1762688,
+      "heap_sys": 6553600,
+      "heap_inuse": 3293184,
+      "stack_inuse": 1835008,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:38:37.9693027-04:00",
+      "heap_alloc": 1798280,
+      "heap_sys": 6553600,
       "heap_inuse": 3301376,
-      "stack_inuse": 1802240,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:41.6835938-04:00",
-      "heap_alloc": 2376632,
-      "heap_sys": 6586368,
-      "heap_inuse": 3358720,
-      "stack_inuse": 1802240,
+      "timestamp": "2025-10-05T11:38:38.1690314-04:00",
+      "heap_alloc": 1806536,
+      "heap_sys": 6553600,
+      "heap_inuse": 3309568,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:41.8835989-04:00",
-      "heap_alloc": 2381232,
-      "heap_sys": 6586368,
-      "heap_inuse": 3358720,
-      "stack_inuse": 1802240,
+      "timestamp": "2025-10-05T11:38:38.3689469-04:00",
+      "heap_alloc": 1822456,
+      "heap_sys": 6553600,
+      "heap_inuse": 3309568,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:42.0839525-04:00",
-      "heap_alloc": 2426416,
-      "heap_sys": 6586368,
-      "heap_inuse": 3383296,
-      "stack_inuse": 1802240,
+      "timestamp": "2025-10-05T11:38:38.5693375-04:00",
+      "heap_alloc": 1827024,
+      "heap_sys": 6553600,
+      "heap_inuse": 3309568,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:42.2838476-04:00",
-      "heap_alloc": 2441976,
-      "heap_sys": 6586368,
-      "heap_inuse": 3391488,
-      "stack_inuse": 1802240,
+      "timestamp": "2025-10-05T11:38:38.7694431-04:00",
+      "heap_alloc": 1842664,
+      "heap_sys": 6553600,
+      "heap_inuse": 3309568,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:42.48378-04:00",
-      "heap_alloc": 2442576,
-      "heap_sys": 6586368,
-      "heap_inuse": 3391488,
-      "stack_inuse": 1802240,
+      "timestamp": "2025-10-05T11:38:38.9688482-04:00",
+      "heap_alloc": 1855392,
+      "heap_sys": 6553600,
+      "heap_inuse": 3309568,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:42.683426-04:00",
-      "heap_alloc": 2465264,
-      "heap_sys": 6586368,
-      "heap_inuse": 3416064,
-      "stack_inuse": 1802240,
+      "timestamp": "2025-10-05T11:38:39.1691712-04:00",
+      "heap_alloc": 1883152,
+      "heap_sys": 6553600,
+      "heap_inuse": 3334144,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:42.8836749-04:00",
-      "heap_alloc": 2484944,
-      "heap_sys": 6586368,
-      "heap_inuse": 3416064,
-      "stack_inuse": 1802240,
+      "timestamp": "2025-10-05T11:38:39.3690124-04:00",
+      "heap_alloc": 1903112,
+      "heap_sys": 6553600,
+      "heap_inuse": 3334144,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:43.0836611-04:00",
-      "heap_alloc": 2487848,
-      "heap_sys": 6586368,
-      "heap_inuse": 3416064,
-      "stack_inuse": 1802240,
+      "timestamp": "2025-10-05T11:38:39.5690941-04:00",
+      "heap_alloc": 1903944,
+      "heap_sys": 6553600,
+      "heap_inuse": 3334144,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:43.2836664-04:00",
-      "heap_alloc": 2514232,
-      "heap_sys": 6586368,
-      "heap_inuse": 3448832,
-      "stack_inuse": 1802240,
+      "timestamp": "2025-10-05T11:38:39.7690665-04:00",
+      "heap_alloc": 1939336,
+      "heap_sys": 6553600,
+      "heap_inuse": 3350528,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:43.4833103-04:00",
-      "heap_alloc": 2546144,
-      "heap_sys": 6586368,
-      "heap_inuse": 3596288,
-      "stack_inuse": 1802240,
+      "timestamp": "2025-10-05T11:38:39.9688857-04:00",
+      "heap_alloc": 1943808,
+      "heap_sys": 6553600,
+      "heap_inuse": 3350528,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:43.6833892-04:00",
-      "heap_alloc": 2551376,
-      "heap_sys": 6586368,
-      "heap_inuse": 3596288,
-      "stack_inuse": 1802240,
+      "timestamp": "2025-10-05T11:38:40.1690549-04:00",
+      "heap_alloc": 1981640,
+      "heap_sys": 6553600,
+      "heap_inuse": 3440640,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:43.883843-04:00",
-      "heap_alloc": 2570904,
-      "heap_sys": 6586368,
+      "timestamp": "2025-10-05T11:38:40.3690299-04:00",
+      "heap_alloc": 1991096,
+      "heap_sys": 6553600,
+      "heap_inuse": 3440640,
+      "stack_inuse": 1835008,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:38:40.5689154-04:00",
+      "heap_alloc": 2003648,
+      "heap_sys": 6553600,
+      "heap_inuse": 3440640,
+      "stack_inuse": 1835008,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:38:40.769509-04:00",
+      "heap_alloc": 2019280,
+      "heap_sys": 6553600,
+      "heap_inuse": 3440640,
+      "stack_inuse": 1835008,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:38:40.9694603-04:00",
+      "heap_alloc": 2076192,
+      "heap_sys": 6553600,
+      "heap_inuse": 3489792,
+      "stack_inuse": 1835008,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:38:41.1695172-04:00",
+      "heap_alloc": 2076192,
+      "heap_sys": 6553600,
+      "heap_inuse": 3489792,
+      "stack_inuse": 1835008,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:38:41.3695697-04:00",
+      "heap_alloc": 2095024,
+      "heap_sys": 6553600,
+      "heap_inuse": 3489792,
+      "stack_inuse": 1835008,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:38:41.5690552-04:00",
+      "heap_alloc": 2109120,
+      "heap_sys": 6553600,
+      "heap_inuse": 3489792,
+      "stack_inuse": 1835008,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:38:41.7689167-04:00",
+      "heap_alloc": 2126344,
+      "heap_sys": 6553600,
+      "heap_inuse": 3497984,
+      "stack_inuse": 1835008,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:38:41.9690867-04:00",
+      "heap_alloc": 2137168,
+      "heap_sys": 6553600,
+      "heap_inuse": 3497984,
+      "stack_inuse": 1835008,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:38:42.1697787-04:00",
+      "heap_alloc": 2158072,
+      "heap_sys": 6553600,
+      "heap_inuse": 3530752,
+      "stack_inuse": 1835008,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:38:42.3698046-04:00",
+      "heap_alloc": 2192184,
+      "heap_sys": 6553600,
+      "heap_inuse": 3547136,
+      "stack_inuse": 1835008,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:38:42.5692588-04:00",
+      "heap_alloc": 2192688,
+      "heap_sys": 6553600,
+      "heap_inuse": 3547136,
+      "stack_inuse": 1835008,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:38:42.7691129-04:00",
+      "heap_alloc": 2199984,
+      "heap_sys": 6553600,
+      "heap_inuse": 3547136,
+      "stack_inuse": 1835008,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:38:42.9697745-04:00",
+      "heap_alloc": 2225472,
+      "heap_sys": 6553600,
+      "heap_inuse": 3612672,
+      "stack_inuse": 1835008,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:38:43.1690204-04:00",
+      "heap_alloc": 2227488,
+      "heap_sys": 6553600,
+      "heap_inuse": 3612672,
+      "stack_inuse": 1835008,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:38:43.3690222-04:00",
+      "heap_alloc": 2281168,
+      "heap_sys": 6553600,
+      "heap_inuse": 3653632,
+      "stack_inuse": 1835008,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:38:43.5691746-04:00",
+      "heap_alloc": 2283360,
+      "heap_sys": 6553600,
+      "heap_inuse": 3653632,
+      "stack_inuse": 1835008,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:38:43.7698258-04:00",
+      "heap_alloc": 2300544,
+      "heap_sys": 6553600,
+      "heap_inuse": 3653632,
+      "stack_inuse": 1835008,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:38:43.9693292-04:00",
+      "heap_alloc": 2337760,
+      "heap_sys": 6553600,
       "heap_inuse": 3686400,
-      "stack_inuse": 1802240,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:44.0832926-04:00",
-      "heap_alloc": 2574936,
-      "heap_sys": 6586368,
-      "heap_inuse": 3686400,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:44.2836712-04:00",
-      "heap_alloc": 2581664,
-      "heap_sys": 6586368,
-      "heap_inuse": 3686400,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:44.484102-04:00",
-      "heap_alloc": 2627888,
-      "heap_sys": 6586368,
-      "heap_inuse": 3710976,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:44.6837065-04:00",
-      "heap_alloc": 2638632,
-      "heap_sys": 6586368,
-      "heap_inuse": 3710976,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:44.8832124-04:00",
-      "heap_alloc": 2683272,
-      "heap_sys": 6586368,
+      "timestamp": "2025-10-05T11:38:44.1688972-04:00",
+      "heap_alloc": 2392248,
+      "heap_sys": 6553600,
       "heap_inuse": 3735552,
-      "stack_inuse": 1802240,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:45.0840471-04:00",
-      "heap_alloc": 2688576,
-      "heap_sys": 6586368,
-      "heap_inuse": 3735552,
-      "stack_inuse": 1802240,
+      "timestamp": "2025-10-05T11:38:44.3692962-04:00",
+      "heap_alloc": 2403704,
+      "heap_sys": 6553600,
+      "heap_inuse": 3743744,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:45.2834633-04:00",
-      "heap_alloc": 2697576,
-      "heap_sys": 6586368,
-      "heap_inuse": 3735552,
-      "stack_inuse": 1802240,
+      "timestamp": "2025-10-05T11:38:44.5698315-04:00",
+      "heap_alloc": 2414144,
+      "heap_sys": 6553600,
+      "heap_inuse": 3743744,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:45.4840073-04:00",
-      "heap_alloc": 2745144,
-      "heap_sys": 6586368,
-      "heap_inuse": 3817472,
-      "stack_inuse": 1802240,
+      "timestamp": "2025-10-05T11:38:44.7688126-04:00",
+      "heap_alloc": 2431816,
+      "heap_sys": 6553600,
+      "heap_inuse": 3751936,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:45.6858928-04:00",
-      "heap_alloc": 2755720,
-      "heap_sys": 6586368,
-      "heap_inuse": 3817472,
-      "stack_inuse": 1802240,
+      "timestamp": "2025-10-05T11:38:44.96974-04:00",
+      "heap_alloc": 2448352,
+      "heap_sys": 6553600,
+      "heap_inuse": 3776512,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:45.8838409-04:00",
-      "heap_alloc": 2795088,
-      "heap_sys": 6586368,
-      "heap_inuse": 3850240,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:46.0841859-04:00",
-      "heap_alloc": 2801552,
-      "heap_sys": 6586368,
-      "heap_inuse": 3850240,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:46.2837626-04:00",
-      "heap_alloc": 2819800,
-      "heap_sys": 6586368,
-      "heap_inuse": 3858432,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:46.4840162-04:00",
-      "heap_alloc": 2835224,
-      "heap_sys": 6586368,
-      "heap_inuse": 3858432,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:46.684159-04:00",
-      "heap_alloc": 2861992,
-      "heap_sys": 6586368,
+      "timestamp": "2025-10-05T11:38:45.1697399-04:00",
+      "heap_alloc": 2494800,
+      "heap_sys": 6553600,
       "heap_inuse": 3874816,
-      "stack_inuse": 1802240,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:46.8922732-04:00",
-      "heap_alloc": 2885104,
-      "heap_sys": 6586368,
+      "timestamp": "2025-10-05T11:38:45.3691967-04:00",
+      "heap_alloc": 2497144,
+      "heap_sys": 6553600,
+      "heap_inuse": 3874816,
+      "stack_inuse": 1835008,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:38:45.5696713-04:00",
+      "heap_alloc": 2513288,
+      "heap_sys": 6553600,
+      "heap_inuse": 3874816,
+      "stack_inuse": 1835008,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:38:45.7695568-04:00",
+      "heap_alloc": 2545920,
+      "heap_sys": 6553600,
+      "heap_inuse": 3874816,
+      "stack_inuse": 1835008,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:38:45.968914-04:00",
+      "heap_alloc": 2562104,
+      "heap_sys": 6553600,
+      "heap_inuse": 3874816,
+      "stack_inuse": 1835008,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:38:46.16903-04:00",
+      "heap_alloc": 2581856,
+      "heap_sys": 6553600,
+      "heap_inuse": 3907584,
+      "stack_inuse": 1835008,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:38:46.3691938-04:00",
+      "heap_alloc": 2599080,
+      "heap_sys": 6553600,
       "heap_inuse": 3915776,
-      "stack_inuse": 1802240,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:47.083845-04:00",
-      "heap_alloc": 2916408,
-      "heap_sys": 6586368,
-      "heap_inuse": 3973120,
-      "stack_inuse": 1802240,
+      "timestamp": "2025-10-05T11:38:46.5692997-04:00",
+      "heap_alloc": 2631440,
+      "heap_sys": 6553600,
+      "heap_inuse": 3981312,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:47.2841378-04:00",
-      "heap_alloc": 2923632,
-      "heap_sys": 6586368,
-      "heap_inuse": 3973120,
-      "stack_inuse": 1802240,
+      "timestamp": "2025-10-05T11:38:46.7693617-04:00",
+      "heap_alloc": 2635560,
+      "heap_sys": 6553600,
+      "heap_inuse": 3981312,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:47.4836446-04:00",
-      "heap_alloc": 2940016,
-      "heap_sys": 6586368,
-      "heap_inuse": 3997696,
-      "stack_inuse": 1802240,
+      "timestamp": "2025-10-05T11:38:46.9691485-04:00",
+      "heap_alloc": 2657480,
+      "heap_sys": 6553600,
+      "heap_inuse": 3981312,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:47.6841864-04:00",
-      "heap_alloc": 2940016,
-      "heap_sys": 6586368,
-      "heap_inuse": 3997696,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:47.8835863-04:00",
-      "heap_alloc": 2977464,
-      "heap_sys": 6586368,
+      "timestamp": "2025-10-05T11:38:47.1695959-04:00",
+      "heap_alloc": 2686744,
+      "heap_sys": 6553600,
       "heap_inuse": 4038656,
-      "stack_inuse": 1802240,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:48.0837854-04:00",
-      "heap_alloc": 3003632,
-      "heap_sys": 6586368,
-      "heap_inuse": 4055040,
-      "stack_inuse": 1802240,
+      "timestamp": "2025-10-05T11:38:47.3688501-04:00",
+      "heap_alloc": 2717472,
+      "heap_sys": 6553600,
+      "heap_inuse": 4046848,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:48.2836442-04:00",
-      "heap_alloc": 3014120,
-      "heap_sys": 6586368,
-      "heap_inuse": 4071424,
-      "stack_inuse": 1802240,
+      "timestamp": "2025-10-05T11:38:47.5691317-04:00",
+      "heap_alloc": 2728632,
+      "heap_sys": 6553600,
+      "heap_inuse": 4046848,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:48.4835454-04:00",
-      "heap_alloc": 3018184,
-      "heap_sys": 6586368,
-      "heap_inuse": 4071424,
-      "stack_inuse": 1802240,
+      "timestamp": "2025-10-05T11:38:47.7691504-04:00",
+      "heap_alloc": 2733000,
+      "heap_sys": 6553600,
+      "heap_inuse": 4046848,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:48.6838377-04:00",
-      "heap_alloc": 3047104,
-      "heap_sys": 6586368,
-      "heap_inuse": 4104192,
-      "stack_inuse": 1802240,
+      "timestamp": "2025-10-05T11:38:47.9690946-04:00",
+      "heap_alloc": 2754744,
+      "heap_sys": 6553600,
+      "heap_inuse": 4046848,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:48.8839823-04:00",
-      "heap_alloc": 3055928,
-      "heap_sys": 6586368,
-      "heap_inuse": 4112384,
-      "stack_inuse": 1802240,
+      "timestamp": "2025-10-05T11:38:48.1693587-04:00",
+      "heap_alloc": 2765736,
+      "heap_sys": 6553600,
+      "heap_inuse": 4046848,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:49.0840854-04:00",
-      "heap_alloc": 3062920,
-      "heap_sys": 6586368,
-      "heap_inuse": 4112384,
-      "stack_inuse": 1802240,
+      "timestamp": "2025-10-05T11:38:48.3697695-04:00",
+      "heap_alloc": 2779776,
+      "heap_sys": 10747904,
+      "heap_inuse": 4063232,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:49.2835099-04:00",
-      "heap_alloc": 3099304,
-      "heap_sys": 6586368,
+      "timestamp": "2025-10-05T11:38:48.5693102-04:00",
+      "heap_alloc": 2796536,
+      "heap_sys": 10747904,
+      "heap_inuse": 4096000,
+      "stack_inuse": 1835008,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:38:48.769309-04:00",
+      "heap_alloc": 2846312,
+      "heap_sys": 10747904,
       "heap_inuse": 4136960,
-      "stack_inuse": 1802240,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:49.4833421-04:00",
-      "heap_alloc": 3116704,
-      "heap_sys": 6586368,
-      "heap_inuse": 4161536,
-      "stack_inuse": 1802240,
+      "timestamp": "2025-10-05T11:38:48.9692226-04:00",
+      "heap_alloc": 2846312,
+      "heap_sys": 10747904,
+      "heap_inuse": 4136960,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:49.6840219-04:00",
-      "heap_alloc": 3150120,
-      "heap_sys": 6586368,
-      "heap_inuse": 4202496,
-      "stack_inuse": 1802240,
+      "timestamp": "2025-10-05T11:38:49.1694674-04:00",
+      "heap_alloc": 2856480,
+      "heap_sys": 10747904,
+      "heap_inuse": 4136960,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:49.8838555-04:00",
-      "heap_alloc": 3160368,
-      "heap_sys": 6586368,
-      "heap_inuse": 4202496,
-      "stack_inuse": 1802240,
+      "timestamp": "2025-10-05T11:38:49.3695128-04:00",
+      "heap_alloc": 2872552,
+      "heap_sys": 10747904,
+      "heap_inuse": 4136960,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:50.0838717-04:00",
-      "heap_alloc": 3160368,
-      "heap_sys": 6586368,
-      "heap_inuse": 4202496,
-      "stack_inuse": 1802240,
+      "timestamp": "2025-10-05T11:38:49.5696074-04:00",
+      "heap_alloc": 2903296,
+      "heap_sys": 10747904,
+      "heap_inuse": 4218880,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:50.2833599-04:00",
-      "heap_alloc": 3192712,
-      "heap_sys": 6586368,
+      "timestamp": "2025-10-05T11:38:49.7696737-04:00",
+      "heap_alloc": 2903296,
+      "heap_sys": 10747904,
+      "heap_inuse": 4218880,
+      "stack_inuse": 1835008,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:38:49.9694852-04:00",
+      "heap_alloc": 2928008,
+      "heap_sys": 10747904,
+      "heap_inuse": 4218880,
+      "stack_inuse": 1835008,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:38:50.1694846-04:00",
+      "heap_alloc": 2950280,
+      "heap_sys": 10747904,
+      "heap_inuse": 4218880,
+      "stack_inuse": 1835008,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:38:50.369412-04:00",
+      "heap_alloc": 2961896,
+      "heap_sys": 10747904,
+      "heap_inuse": 4227072,
+      "stack_inuse": 1835008,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:38:50.5695366-04:00",
+      "heap_alloc": 2976280,
+      "heap_sys": 10747904,
       "heap_inuse": 4235264,
-      "stack_inuse": 1802240,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:50.4834863-04:00",
-      "heap_alloc": 3206896,
-      "heap_sys": 6586368,
-      "heap_inuse": 4235264,
-      "stack_inuse": 1802240,
+      "timestamp": "2025-10-05T11:38:50.7696593-04:00",
+      "heap_alloc": 3016488,
+      "heap_sys": 10747904,
+      "heap_inuse": 4284416,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:50.6838955-04:00",
-      "heap_alloc": 3215032,
-      "heap_sys": 6586368,
-      "heap_inuse": 4251648,
-      "stack_inuse": 1802240,
+      "timestamp": "2025-10-05T11:38:50.9695633-04:00",
+      "heap_alloc": 3035016,
+      "heap_sys": 10747904,
+      "heap_inuse": 4292608,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:50.8839247-04:00",
-      "heap_alloc": 3233672,
-      "heap_sys": 6586368,
-      "heap_inuse": 4308992,
-      "stack_inuse": 1802240,
+      "timestamp": "2025-10-05T11:38:51.1696788-04:00",
+      "heap_alloc": 3035704,
+      "heap_sys": 10747904,
+      "heap_inuse": 4292608,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:51.083765-04:00",
-      "heap_alloc": 3271424,
-      "heap_sys": 6586368,
-      "heap_inuse": 4341760,
-      "stack_inuse": 1802240,
+      "timestamp": "2025-10-05T11:38:51.3694854-04:00",
+      "heap_alloc": 3078152,
+      "heap_sys": 10747904,
+      "heap_inuse": 4317184,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:51.2834436-04:00",
-      "heap_alloc": 3271424,
-      "heap_sys": 6586368,
-      "heap_inuse": 4341760,
-      "stack_inuse": 1802240,
+      "timestamp": "2025-10-05T11:38:51.5695479-04:00",
+      "heap_alloc": 3088888,
+      "heap_sys": 10747904,
+      "heap_inuse": 4317184,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:51.4840965-04:00",
-      "heap_alloc": 3276352,
-      "heap_sys": 6586368,
-      "heap_inuse": 4341760,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:51.6837031-04:00",
-      "heap_alloc": 3312952,
-      "heap_sys": 10780672,
-      "heap_inuse": 4349952,
-      "stack_inuse": 1802240,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:51.8833801-04:00",
-      "heap_alloc": 3328976,
-      "heap_sys": 10780672,
+      "timestamp": "2025-10-05T11:38:51.7698708-04:00",
+      "heap_alloc": 3108408,
+      "heap_sys": 10747904,
       "heap_inuse": 4366336,
-      "stack_inuse": 1802240,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:52.0834241-04:00",
-      "heap_alloc": 3343392,
-      "heap_sys": 10780672,
-      "heap_inuse": 4382720,
-      "stack_inuse": 1802240,
+      "timestamp": "2025-10-05T11:38:51.969114-04:00",
+      "heap_alloc": 3113272,
+      "heap_sys": 10747904,
+      "heap_inuse": 4366336,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:52.2837051-04:00",
-      "heap_alloc": 3353496,
-      "heap_sys": 10780672,
-      "heap_inuse": 4382720,
-      "stack_inuse": 1802240,
+      "timestamp": "2025-10-05T11:38:52.1690051-04:00",
+      "heap_alloc": 3123032,
+      "heap_sys": 10747904,
+      "heap_inuse": 4366336,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:52.4840872-04:00",
-      "heap_alloc": 1822584,
-      "heap_sys": 10715136,
-      "heap_inuse": 3170304,
-      "stack_inuse": 1867776,
+      "timestamp": "2025-10-05T11:38:52.3698463-04:00",
+      "heap_alloc": 3140968,
+      "heap_sys": 10747904,
+      "heap_inuse": 4374528,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:52.683544-04:00",
-      "heap_alloc": 1882288,
-      "heap_sys": 10715136,
-      "heap_inuse": 3203072,
-      "stack_inuse": 1867776,
+      "timestamp": "2025-10-05T11:38:52.569281-04:00",
+      "heap_alloc": 3167200,
+      "heap_sys": 10747904,
+      "heap_inuse": 4489216,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:52.8837536-04:00",
-      "heap_alloc": 1904032,
-      "heap_sys": 10715136,
-      "heap_inuse": 3219456,
-      "stack_inuse": 1867776,
+      "timestamp": "2025-10-05T11:38:52.7689733-04:00",
+      "heap_alloc": 3168080,
+      "heap_sys": 10747904,
+      "heap_inuse": 4489216,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:53.0835624-04:00",
-      "heap_alloc": 1909024,
-      "heap_sys": 10715136,
-      "heap_inuse": 3219456,
-      "stack_inuse": 1867776,
+      "timestamp": "2025-10-05T11:38:52.9691212-04:00",
+      "heap_alloc": 3192040,
+      "heap_sys": 10747904,
+      "heap_inuse": 4538368,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:53.2836489-04:00",
-      "heap_alloc": 1911280,
-      "heap_sys": 10715136,
-      "heap_inuse": 3219456,
-      "stack_inuse": 1867776,
+      "timestamp": "2025-10-05T11:38:53.1692084-04:00",
+      "heap_alloc": 3227992,
+      "heap_sys": 10747904,
+      "heap_inuse": 4554752,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:53.484243-04:00",
-      "heap_alloc": 1944760,
-      "heap_sys": 10715136,
-      "heap_inuse": 3235840,
-      "stack_inuse": 1867776,
+      "timestamp": "2025-10-05T11:38:53.369312-04:00",
+      "heap_alloc": 3250024,
+      "heap_sys": 10747904,
+      "heap_inuse": 4562944,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:53.683555-04:00",
-      "heap_alloc": 1971304,
-      "heap_sys": 10715136,
-      "heap_inuse": 3244032,
-      "stack_inuse": 1867776,
+      "timestamp": "2025-10-05T11:38:53.5691294-04:00",
+      "heap_alloc": 3275568,
+      "heap_sys": 10747904,
+      "heap_inuse": 4579328,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:53.8840823-04:00",
-      "heap_alloc": 1971304,
-      "heap_sys": 10715136,
-      "heap_inuse": 3244032,
-      "stack_inuse": 1867776,
+      "timestamp": "2025-10-05T11:38:53.7691918-04:00",
+      "heap_alloc": 3277456,
+      "heap_sys": 10747904,
+      "heap_inuse": 4579328,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:54.0841061-04:00",
-      "heap_alloc": 2008744,
-      "heap_sys": 10715136,
-      "heap_inuse": 3260416,
-      "stack_inuse": 1867776,
+      "timestamp": "2025-10-05T11:38:53.9690282-04:00",
+      "heap_alloc": 3291280,
+      "heap_sys": 10747904,
+      "heap_inuse": 4579328,
+      "stack_inuse": 1835008,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:54.2836741-04:00",
-      "heap_alloc": 2040488,
-      "heap_sys": 10715136,
-      "heap_inuse": 3260416,
-      "stack_inuse": 1867776,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:54.4837395-04:00",
-      "heap_alloc": 2045528,
-      "heap_sys": 10715136,
-      "heap_inuse": 3268608,
-      "stack_inuse": 1867776,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:54.6839389-04:00",
-      "heap_alloc": 2048104,
-      "heap_sys": 10715136,
-      "heap_inuse": 3268608,
-      "stack_inuse": 1867776,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:54.8840012-04:00",
-      "heap_alloc": 2050680,
-      "heap_sys": 10715136,
-      "heap_inuse": 3276800,
-      "stack_inuse": 1867776,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:55.0835306-04:00",
-      "heap_alloc": 2116880,
-      "heap_sys": 10715136,
-      "heap_inuse": 3350528,
-      "stack_inuse": 1867776,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:55.284113-04:00",
-      "heap_alloc": 2118896,
-      "heap_sys": 10715136,
-      "heap_inuse": 3350528,
-      "stack_inuse": 1867776,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:55.4834421-04:00",
-      "heap_alloc": 2165936,
-      "heap_sys": 10715136,
-      "heap_inuse": 3358720,
-      "stack_inuse": 1867776,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:55.6839199-04:00",
-      "heap_alloc": 2168968,
-      "heap_sys": 10715136,
-      "heap_inuse": 3358720,
-      "stack_inuse": 1867776,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:55.8832866-04:00",
-      "heap_alloc": 2197856,
-      "heap_sys": 10715136,
-      "heap_inuse": 3399680,
-      "stack_inuse": 1867776,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:56.08348-04:00",
-      "heap_alloc": 2226400,
-      "heap_sys": 10715136,
-      "heap_inuse": 3407872,
-      "stack_inuse": 1867776,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:56.2834551-04:00",
-      "heap_alloc": 2255544,
-      "heap_sys": 10715136,
-      "heap_inuse": 3432448,
-      "stack_inuse": 1867776,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:56.4833423-04:00",
-      "heap_alloc": 2261752,
+      "timestamp": "2025-10-05T11:38:54.1692172-04:00",
+      "heap_alloc": 1820992,
       "heap_sys": 10715136,
       "heap_inuse": 3440640,
       "stack_inuse": 1867776,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:56.6837815-04:00",
-      "heap_alloc": 2299104,
-      "heap_sys": 10715136,
-      "heap_inuse": 3489792,
-      "stack_inuse": 1867776,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:56.8833685-04:00",
-      "heap_alloc": 2315800,
-      "heap_sys": 10715136,
-      "heap_inuse": 3489792,
-      "stack_inuse": 1867776,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:57.0835151-04:00",
-      "heap_alloc": 2327368,
-      "heap_sys": 10715136,
-      "heap_inuse": 3489792,
-      "stack_inuse": 1867776,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:57.2840135-04:00",
-      "heap_alloc": 2329432,
-      "heap_sys": 10715136,
-      "heap_inuse": 3489792,
-      "stack_inuse": 1867776,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:57.4839033-04:00",
-      "heap_alloc": 2365472,
+      "timestamp": "2025-10-05T11:38:54.3691953-04:00",
+      "heap_alloc": 1847176,
       "heap_sys": 10715136,
       "heap_inuse": 3506176,
       "stack_inuse": 1867776,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:57.6835344-04:00",
-      "heap_alloc": 2385920,
+      "timestamp": "2025-10-05T11:38:54.5690302-04:00",
+      "heap_alloc": 1859936,
       "heap_sys": 10715136,
-      "heap_inuse": 3506176,
+      "heap_inuse": 3522560,
       "stack_inuse": 1867776,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:57.8837156-04:00",
-      "heap_alloc": 2410640,
-      "heap_sys": 10715136,
-      "heap_inuse": 3538944,
-      "stack_inuse": 1867776,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:58.0836635-04:00",
-      "heap_alloc": 2427072,
+      "timestamp": "2025-10-05T11:38:54.7695347-04:00",
+      "heap_alloc": 1907496,
       "heap_sys": 10715136,
       "heap_inuse": 3547136,
       "stack_inuse": 1867776,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:58.2836826-04:00",
-      "heap_alloc": 2447904,
+      "timestamp": "2025-10-05T11:38:54.9695081-04:00",
+      "heap_alloc": 1907936,
       "heap_sys": 10715136,
-      "heap_inuse": 3555328,
+      "heap_inuse": 3547136,
       "stack_inuse": 1867776,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:58.483678-04:00",
-      "heap_alloc": 2470176,
+      "timestamp": "2025-10-05T11:38:55.1693928-04:00",
+      "heap_alloc": 1911816,
       "heap_sys": 10715136,
-      "heap_inuse": 3563520,
+      "heap_inuse": 3547136,
       "stack_inuse": 1867776,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:58.6835647-04:00",
-      "heap_alloc": 2476856,
-      "heap_sys": 10715136,
-      "heap_inuse": 3563520,
-      "stack_inuse": 1867776,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:58.8838493-04:00",
-      "heap_alloc": 2486384,
-      "heap_sys": 10715136,
-      "heap_inuse": 3563520,
-      "stack_inuse": 1867776,
-      "num_goroutine": 204
-    },
-    {
-      "timestamp": "2025-10-04T00:39:59.0839119-04:00",
-      "heap_alloc": 2507192,
+      "timestamp": "2025-10-05T11:38:55.3695555-04:00",
+      "heap_alloc": 1959632,
       "heap_sys": 10715136,
       "heap_inuse": 3571712,
       "stack_inuse": 1867776,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:59.2839059-04:00",
-      "heap_alloc": 2534976,
+      "timestamp": "2025-10-05T11:38:55.5692636-04:00",
+      "heap_alloc": 1993448,
       "heap_sys": 10715136,
-      "heap_inuse": 3588096,
+      "heap_inuse": 3571712,
       "stack_inuse": 1867776,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:59.4835584-04:00",
-      "heap_alloc": 2538504,
+      "timestamp": "2025-10-05T11:38:55.7689219-04:00",
+      "heap_alloc": 1996712,
       "heap_sys": 10715136,
-      "heap_inuse": 3588096,
+      "heap_inuse": 3571712,
       "stack_inuse": 1867776,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:59.6836434-04:00",
-      "heap_alloc": 2561000,
+      "timestamp": "2025-10-05T11:38:55.9695587-04:00",
+      "heap_alloc": 2005856,
       "heap_sys": 10715136,
-      "heap_inuse": 3588096,
+      "heap_inuse": 3571712,
       "stack_inuse": 1867776,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:39:59.8835285-04:00",
-      "heap_alloc": 2561368,
+      "timestamp": "2025-10-05T11:38:56.1698615-04:00",
+      "heap_alloc": 2046736,
       "heap_sys": 10715136,
-      "heap_inuse": 3588096,
+      "heap_inuse": 3571712,
       "stack_inuse": 1867776,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:40:00.0840719-04:00",
-      "heap_alloc": 2584312,
+      "timestamp": "2025-10-05T11:38:56.369753-04:00",
+      "heap_alloc": 2047744,
+      "heap_sys": 10715136,
+      "heap_inuse": 3571712,
+      "stack_inuse": 1867776,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:38:56.5694129-04:00",
+      "heap_alloc": 2056376,
+      "heap_sys": 10715136,
+      "heap_inuse": 3571712,
+      "stack_inuse": 1867776,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:38:56.7693205-04:00",
+      "heap_alloc": 2056376,
+      "heap_sys": 10715136,
+      "heap_inuse": 3571712,
+      "stack_inuse": 1867776,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:38:56.9696549-04:00",
+      "heap_alloc": 2101432,
       "heap_sys": 10715136,
       "heap_inuse": 3596288,
       "stack_inuse": 1867776,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:40:00.2841631-04:00",
-      "heap_alloc": 2632920,
+      "timestamp": "2025-10-05T11:38:57.1694003-04:00",
+      "heap_alloc": 2120672,
       "heap_sys": 10715136,
-      "heap_inuse": 3670016,
+      "heap_inuse": 3596288,
       "stack_inuse": 1867776,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:40:00.484145-04:00",
-      "heap_alloc": 2636288,
+      "timestamp": "2025-10-05T11:38:57.3692514-04:00",
+      "heap_alloc": 2121944,
       "heap_sys": 10715136,
-      "heap_inuse": 3670016,
+      "heap_inuse": 3596288,
       "stack_inuse": 1867776,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:40:00.6839867-04:00",
-      "heap_alloc": 2658600,
+      "timestamp": "2025-10-05T11:38:57.5695727-04:00",
+      "heap_alloc": 2140128,
       "heap_sys": 10715136,
-      "heap_inuse": 3678208,
+      "heap_inuse": 3604480,
       "stack_inuse": 1867776,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:40:00.8836378-04:00",
-      "heap_alloc": 2666880,
+      "timestamp": "2025-10-05T11:38:57.7698292-04:00",
+      "heap_alloc": 2185536,
       "heap_sys": 10715136,
-      "heap_inuse": 3678208,
+      "heap_inuse": 3645440,
       "stack_inuse": 1867776,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:40:01.0841074-04:00",
-      "heap_alloc": 2698896,
+      "timestamp": "2025-10-05T11:38:57.9692229-04:00",
+      "heap_alloc": 2194488,
       "heap_sys": 10715136,
-      "heap_inuse": 3735552,
+      "heap_inuse": 3645440,
       "stack_inuse": 1867776,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:40:01.2836111-04:00",
-      "heap_alloc": 2700912,
+      "timestamp": "2025-10-05T11:38:58.1692563-04:00",
+      "heap_alloc": 2196648,
       "heap_sys": 10715136,
-      "heap_inuse": 3735552,
+      "heap_inuse": 3645440,
       "stack_inuse": 1867776,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:40:01.4836195-04:00",
-      "heap_alloc": 2728568,
+      "timestamp": "2025-10-05T11:38:58.369289-04:00",
+      "heap_alloc": 2198024,
       "heap_sys": 10715136,
-      "heap_inuse": 3743744,
+      "heap_inuse": 3645440,
       "stack_inuse": 1867776,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:40:01.6832573-04:00",
-      "heap_alloc": 2759696,
+      "timestamp": "2025-10-05T11:38:58.5693947-04:00",
+      "heap_alloc": 2200392,
       "heap_sys": 10715136,
-      "heap_inuse": 3776512,
+      "heap_inuse": 3645440,
       "stack_inuse": 1867776,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:40:01.8838645-04:00",
-      "heap_alloc": 2769944,
+      "timestamp": "2025-10-05T11:38:58.7689857-04:00",
+      "heap_alloc": 2258416,
       "heap_sys": 10715136,
-      "heap_inuse": 3776512,
+      "heap_inuse": 3760128,
       "stack_inuse": 1867776,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:40:02.0835134-04:00",
-      "heap_alloc": 2795584,
+      "timestamp": "2025-10-05T11:38:58.9690781-04:00",
+      "heap_alloc": 2288560,
       "heap_sys": 10715136,
-      "heap_inuse": 3792896,
+      "heap_inuse": 3760128,
       "stack_inuse": 1867776,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:40:02.2835391-04:00",
-      "heap_alloc": 2801768,
+      "timestamp": "2025-10-05T11:38:59.1691964-04:00",
+      "heap_alloc": 2290968,
       "heap_sys": 10715136,
-      "heap_inuse": 3792896,
+      "heap_inuse": 3760128,
       "stack_inuse": 1867776,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:40:02.4841513-04:00",
-      "heap_alloc": 2835064,
+      "timestamp": "2025-10-05T11:38:59.3688423-04:00",
+      "heap_alloc": 2291800,
       "heap_sys": 10715136,
-      "heap_inuse": 3825664,
+      "heap_inuse": 3760128,
       "stack_inuse": 1867776,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:40:02.6834211-04:00",
-      "heap_alloc": 2852016,
+      "timestamp": "2025-10-05T11:38:59.5697238-04:00",
+      "heap_alloc": 2319248,
       "heap_sys": 10715136,
-      "heap_inuse": 3833856,
+      "heap_inuse": 3760128,
       "stack_inuse": 1867776,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:40:02.8834077-04:00",
-      "heap_alloc": 2871120,
+      "timestamp": "2025-10-05T11:38:59.7692578-04:00",
+      "heap_alloc": 2323712,
       "heap_sys": 10715136,
-      "heap_inuse": 3858432,
+      "heap_inuse": 3760128,
       "stack_inuse": 1867776,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:40:03.0839725-04:00",
-      "heap_alloc": 2871120,
+      "timestamp": "2025-10-05T11:38:59.9693006-04:00",
+      "heap_alloc": 2340632,
       "heap_sys": 10715136,
-      "heap_inuse": 3858432,
+      "heap_inuse": 3760128,
       "stack_inuse": 1867776,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:40:03.2836771-04:00",
-      "heap_alloc": 2905912,
+      "timestamp": "2025-10-05T11:39:00.1694362-04:00",
+      "heap_alloc": 2395960,
+      "heap_sys": 10715136,
+      "heap_inuse": 3784704,
+      "stack_inuse": 1867776,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:39:00.3695584-04:00",
+      "heap_alloc": 2411296,
+      "heap_sys": 10715136,
+      "heap_inuse": 3801088,
+      "stack_inuse": 1867776,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:39:00.5696876-04:00",
+      "heap_alloc": 2412808,
+      "heap_sys": 10715136,
+      "heap_inuse": 3801088,
+      "stack_inuse": 1867776,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:39:00.769288-04:00",
+      "heap_alloc": 2441648,
+      "heap_sys": 10715136,
+      "heap_inuse": 3801088,
+      "stack_inuse": 1867776,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:39:00.9698335-04:00",
+      "heap_alloc": 2462536,
+      "heap_sys": 10715136,
+      "heap_inuse": 3809280,
+      "stack_inuse": 1867776,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:39:01.1697325-04:00",
+      "heap_alloc": 2465008,
+      "heap_sys": 10715136,
+      "heap_inuse": 3809280,
+      "stack_inuse": 1867776,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:39:01.3688935-04:00",
+      "heap_alloc": 2510488,
+      "heap_sys": 10715136,
+      "heap_inuse": 3850240,
+      "stack_inuse": 1867776,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:39:01.5692932-04:00",
+      "heap_alloc": 2512832,
+      "heap_sys": 10715136,
+      "heap_inuse": 3850240,
+      "stack_inuse": 1867776,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:39:01.7693833-04:00",
+      "heap_alloc": 2528312,
+      "heap_sys": 10715136,
+      "heap_inuse": 3866624,
+      "stack_inuse": 1867776,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:39:01.9694698-04:00",
+      "heap_alloc": 2552192,
       "heap_sys": 10715136,
       "heap_inuse": 3874816,
       "stack_inuse": 1867776,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:40:03.483278-04:00",
-      "heap_alloc": 2906352,
+      "timestamp": "2025-10-05T11:39:02.1693675-04:00",
+      "heap_alloc": 2553376,
       "heap_sys": 10715136,
       "heap_inuse": 3874816,
       "stack_inuse": 1867776,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:40:03.6841725-04:00",
-      "heap_alloc": 2910320,
+      "timestamp": "2025-10-05T11:39:02.3692589-04:00",
+      "heap_alloc": 2609168,
       "heap_sys": 10715136,
-      "heap_inuse": 3874816,
+      "heap_inuse": 3907584,
       "stack_inuse": 1867776,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:40:03.8834181-04:00",
-      "heap_alloc": 2935016,
+      "timestamp": "2025-10-05T11:39:02.5692211-04:00",
+      "heap_alloc": 2613944,
       "heap_sys": 10715136,
-      "heap_inuse": 3915776,
+      "heap_inuse": 3907584,
       "stack_inuse": 1867776,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:40:04.0836116-04:00",
-      "heap_alloc": 2949872,
+      "timestamp": "2025-10-05T11:39:02.769859-04:00",
+      "heap_alloc": 2659696,
       "heap_sys": 10715136,
-      "heap_inuse": 3915776,
+      "heap_inuse": 3923968,
       "stack_inuse": 1867776,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:40:04.283725-04:00",
-      "heap_alloc": 2982376,
+      "timestamp": "2025-10-05T11:39:02.9690781-04:00",
+      "heap_alloc": 2679512,
       "heap_sys": 10715136,
-      "heap_inuse": 3940352,
+      "heap_inuse": 3923968,
       "stack_inuse": 1867776,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:40:04.4837935-04:00",
-      "heap_alloc": 2983120,
+      "timestamp": "2025-10-05T11:39:03.1690632-04:00",
+      "heap_alloc": 2681136,
       "heap_sys": 10715136,
-      "heap_inuse": 3940352,
+      "heap_inuse": 3923968,
       "stack_inuse": 1867776,
       "num_goroutine": 204
     },
     {
-      "timestamp": "2025-10-04T00:40:04.6836357-04:00",
-      "heap_alloc": 2998144,
+      "timestamp": "2025-10-05T11:39:03.3697189-04:00",
+      "heap_alloc": 2688912,
+      "heap_sys": 10715136,
+      "heap_inuse": 3923968,
+      "stack_inuse": 1867776,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:39:03.5696188-04:00",
+      "heap_alloc": 2740800,
+      "heap_sys": 10715136,
+      "heap_inuse": 3997696,
+      "stack_inuse": 1867776,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:39:03.7689745-04:00",
+      "heap_alloc": 2764408,
+      "heap_sys": 10715136,
+      "heap_inuse": 4005888,
+      "stack_inuse": 1867776,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:39:03.9691312-04:00",
+      "heap_alloc": 2780168,
+      "heap_sys": 10715136,
+      "heap_inuse": 4030464,
+      "stack_inuse": 1867776,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:39:04.1691003-04:00",
+      "heap_alloc": 2803080,
+      "heap_sys": 10715136,
+      "heap_inuse": 4046848,
+      "stack_inuse": 1867776,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:39:04.3692548-04:00",
+      "heap_alloc": 2836432,
+      "heap_sys": 10715136,
+      "heap_inuse": 4071424,
+      "stack_inuse": 1867776,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:39:04.5697916-04:00",
+      "heap_alloc": 2838496,
+      "heap_sys": 10715136,
+      "heap_inuse": 4071424,
+      "stack_inuse": 1867776,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:39:04.7698756-04:00",
+      "heap_alloc": 2864696,
+      "heap_sys": 10715136,
+      "heap_inuse": 4079616,
+      "stack_inuse": 1867776,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:39:04.969095-04:00",
+      "heap_alloc": 2891192,
+      "heap_sys": 10715136,
+      "heap_inuse": 4079616,
+      "stack_inuse": 1867776,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:39:05.1690931-04:00",
+      "heap_alloc": 2899704,
+      "heap_sys": 10715136,
+      "heap_inuse": 4079616,
+      "stack_inuse": 1867776,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:39:05.3693826-04:00",
+      "heap_alloc": 2909632,
+      "heap_sys": 10715136,
+      "heap_inuse": 4087808,
+      "stack_inuse": 1867776,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:39:05.5692711-04:00",
+      "heap_alloc": 2932736,
+      "heap_sys": 10715136,
+      "heap_inuse": 4136960,
+      "stack_inuse": 1867776,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:39:05.7697876-04:00",
+      "heap_alloc": 2954440,
+      "heap_sys": 10715136,
+      "heap_inuse": 4218880,
+      "stack_inuse": 1867776,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:39:05.9696948-04:00",
+      "heap_alloc": 2990248,
+      "heap_sys": 10715136,
+      "heap_inuse": 4218880,
+      "stack_inuse": 1867776,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:39:06.1691766-04:00",
+      "heap_alloc": 3024480,
+      "heap_sys": 10715136,
+      "heap_inuse": 4218880,
+      "stack_inuse": 1867776,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:39:06.369062-04:00",
+      "heap_alloc": 3036176,
+      "heap_sys": 10715136,
+      "heap_inuse": 4218880,
+      "stack_inuse": 1867776,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:39:06.5690557-04:00",
+      "heap_alloc": 3039432,
+      "heap_sys": 10715136,
+      "heap_inuse": 4218880,
+      "stack_inuse": 1867776,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:39:06.7696703-04:00",
+      "heap_alloc": 3044368,
+      "heap_sys": 10715136,
+      "heap_inuse": 4218880,
+      "stack_inuse": 1867776,
+      "num_goroutine": 204
+    },
+    {
+      "timestamp": "2025-10-05T11:39:06.9691937-04:00",
+      "heap_alloc": 3054208,
       "heap_sys": 10682368,
-      "heap_inuse": 3940352,
+      "heap_inuse": 4218880,
       "stack_inuse": 1900544,
-      "num_goroutine": 204
+      "num_goroutine": 205
     }
   ],
   "gc_snapshots": [
     {
-      "timestamp": "2025-10-04T00:39:34.8837717-04:00",
+      "timestamp": "2025-10-05T11:38:37.1698057-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:35.084111-04:00",
+      "timestamp": "2025-10-05T11:38:37.3698251-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:35.2833349-04:00",
+      "timestamp": "2025-10-05T11:38:37.5693373-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:35.4844069-04:00",
+      "timestamp": "2025-10-05T11:38:37.7698486-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:35.68375-04:00",
+      "timestamp": "2025-10-05T11:38:37.9693027-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:35.8839114-04:00",
+      "timestamp": "2025-10-05T11:38:38.1690314-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:36.0838804-04:00",
+      "timestamp": "2025-10-05T11:38:38.3689469-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:36.2838675-04:00",
+      "timestamp": "2025-10-05T11:38:38.5693375-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:36.4836146-04:00",
+      "timestamp": "2025-10-05T11:38:38.7694431-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:36.6836842-04:00",
+      "timestamp": "2025-10-05T11:38:38.9688482-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:36.8839067-04:00",
+      "timestamp": "2025-10-05T11:38:39.1691712-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:37.0842375-04:00",
+      "timestamp": "2025-10-05T11:38:39.3690124-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:37.283534-04:00",
+      "timestamp": "2025-10-05T11:38:39.5690941-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:37.4836358-04:00",
+      "timestamp": "2025-10-05T11:38:39.7690665-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:37.6833673-04:00",
+      "timestamp": "2025-10-05T11:38:39.9688857-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:37.8832728-04:00",
+      "timestamp": "2025-10-05T11:38:40.1690549-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:38.0841264-04:00",
+      "timestamp": "2025-10-05T11:38:40.3690299-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:38.2835454-04:00",
+      "timestamp": "2025-10-05T11:38:40.5689154-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:38.4837713-04:00",
+      "timestamp": "2025-10-05T11:38:40.769509-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:38.6833338-04:00",
+      "timestamp": "2025-10-05T11:38:40.9694603-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:38.8841504-04:00",
+      "timestamp": "2025-10-05T11:38:41.1695172-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:39.0837376-04:00",
+      "timestamp": "2025-10-05T11:38:41.3695697-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:39.2833572-04:00",
+      "timestamp": "2025-10-05T11:38:41.5690552-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:39.4839422-04:00",
+      "timestamp": "2025-10-05T11:38:41.7689167-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:39.6835456-04:00",
+      "timestamp": "2025-10-05T11:38:41.9690867-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:39.8838952-04:00",
+      "timestamp": "2025-10-05T11:38:42.1697787-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:40.0839164-04:00",
+      "timestamp": "2025-10-05T11:38:42.3698046-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:40.2838654-04:00",
+      "timestamp": "2025-10-05T11:38:42.5692588-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:40.4836724-04:00",
+      "timestamp": "2025-10-05T11:38:42.7691129-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:40.6839815-04:00",
+      "timestamp": "2025-10-05T11:38:42.9697745-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:40.8835166-04:00",
+      "timestamp": "2025-10-05T11:38:43.1690204-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:41.0837312-04:00",
+      "timestamp": "2025-10-05T11:38:43.3690222-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:41.2841455-04:00",
+      "timestamp": "2025-10-05T11:38:43.5691746-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:41.4837078-04:00",
+      "timestamp": "2025-10-05T11:38:43.7698258-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:41.6835938-04:00",
+      "timestamp": "2025-10-05T11:38:43.9693292-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:41.8835989-04:00",
+      "timestamp": "2025-10-05T11:38:44.1688972-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:42.0839525-04:00",
+      "timestamp": "2025-10-05T11:38:44.3692962-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:42.2838476-04:00",
+      "timestamp": "2025-10-05T11:38:44.5698315-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:42.48378-04:00",
+      "timestamp": "2025-10-05T11:38:44.7688126-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:42.683426-04:00",
+      "timestamp": "2025-10-05T11:38:44.96974-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:42.8836749-04:00",
+      "timestamp": "2025-10-05T11:38:45.1697399-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:43.0836611-04:00",
+      "timestamp": "2025-10-05T11:38:45.3691967-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:43.2836664-04:00",
+      "timestamp": "2025-10-05T11:38:45.5696713-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:43.4833103-04:00",
+      "timestamp": "2025-10-05T11:38:45.7695568-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:43.6833892-04:00",
+      "timestamp": "2025-10-05T11:38:45.968914-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:43.883843-04:00",
+      "timestamp": "2025-10-05T11:38:46.16903-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:44.0832926-04:00",
+      "timestamp": "2025-10-05T11:38:46.3691938-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:44.2836712-04:00",
+      "timestamp": "2025-10-05T11:38:46.5692997-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:44.484102-04:00",
+      "timestamp": "2025-10-05T11:38:46.7693617-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:44.6837065-04:00",
+      "timestamp": "2025-10-05T11:38:46.9691485-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:44.8832124-04:00",
+      "timestamp": "2025-10-05T11:38:47.1695959-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:45.0840471-04:00",
+      "timestamp": "2025-10-05T11:38:47.3688501-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:45.2834633-04:00",
+      "timestamp": "2025-10-05T11:38:47.5691317-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:45.4840073-04:00",
+      "timestamp": "2025-10-05T11:38:47.7691504-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:45.6858928-04:00",
+      "timestamp": "2025-10-05T11:38:47.9690946-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:45.8838409-04:00",
+      "timestamp": "2025-10-05T11:38:48.1693587-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:46.0841859-04:00",
+      "timestamp": "2025-10-05T11:38:48.3697695-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:46.2837626-04:00",
+      "timestamp": "2025-10-05T11:38:48.5693102-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:46.4840162-04:00",
+      "timestamp": "2025-10-05T11:38:48.769309-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:46.684159-04:00",
+      "timestamp": "2025-10-05T11:38:48.9692226-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:46.8922732-04:00",
+      "timestamp": "2025-10-05T11:38:49.1694674-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:47.083845-04:00",
+      "timestamp": "2025-10-05T11:38:49.3695128-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:47.2841378-04:00",
+      "timestamp": "2025-10-05T11:38:49.5696074-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:47.4836446-04:00",
+      "timestamp": "2025-10-05T11:38:49.7696737-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:47.6841864-04:00",
+      "timestamp": "2025-10-05T11:38:49.9694852-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:47.8835863-04:00",
+      "timestamp": "2025-10-05T11:38:50.1694846-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:48.0837854-04:00",
+      "timestamp": "2025-10-05T11:38:50.369412-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:48.2836442-04:00",
+      "timestamp": "2025-10-05T11:38:50.5695366-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:48.4835454-04:00",
+      "timestamp": "2025-10-05T11:38:50.7696593-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:48.6838377-04:00",
+      "timestamp": "2025-10-05T11:38:50.9695633-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:48.8839823-04:00",
+      "timestamp": "2025-10-05T11:38:51.1696788-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:49.0840854-04:00",
+      "timestamp": "2025-10-05T11:38:51.3694854-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:49.2835099-04:00",
+      "timestamp": "2025-10-05T11:38:51.5695479-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:49.4833421-04:00",
+      "timestamp": "2025-10-05T11:38:51.7698708-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:49.6840219-04:00",
+      "timestamp": "2025-10-05T11:38:51.969114-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:49.8838555-04:00",
+      "timestamp": "2025-10-05T11:38:52.1690051-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:50.0838717-04:00",
+      "timestamp": "2025-10-05T11:38:52.3698463-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:50.2833599-04:00",
+      "timestamp": "2025-10-05T11:38:52.569281-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:50.4834863-04:00",
+      "timestamp": "2025-10-05T11:38:52.7689733-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:50.6838955-04:00",
+      "timestamp": "2025-10-05T11:38:52.9691212-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:50.8839247-04:00",
+      "timestamp": "2025-10-05T11:38:53.1692084-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:51.083765-04:00",
+      "timestamp": "2025-10-05T11:38:53.369312-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:51.2834436-04:00",
+      "timestamp": "2025-10-05T11:38:53.5691294-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:51.4840965-04:00",
+      "timestamp": "2025-10-05T11:38:53.7691918-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:51.6837031-04:00",
+      "timestamp": "2025-10-05T11:38:53.9690282-04:00",
       "num_gc": 0,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:51.8833801-04:00",
-      "num_gc": 0,
-      "pause_total_ns": 0,
-      "last_pause_ns": 0
-    },
-    {
-      "timestamp": "2025-10-04T00:39:52.0834241-04:00",
-      "num_gc": 0,
-      "pause_total_ns": 0,
-      "last_pause_ns": 0
-    },
-    {
-      "timestamp": "2025-10-04T00:39:52.2837051-04:00",
-      "num_gc": 0,
-      "pause_total_ns": 0,
-      "last_pause_ns": 0
-    },
-    {
-      "timestamp": "2025-10-04T00:39:52.4840872-04:00",
+      "timestamp": "2025-10-05T11:38:54.1692172-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:52.683544-04:00",
+      "timestamp": "2025-10-05T11:38:54.3691953-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:52.8837536-04:00",
+      "timestamp": "2025-10-05T11:38:54.5690302-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:53.0835624-04:00",
+      "timestamp": "2025-10-05T11:38:54.7695347-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:53.2836489-04:00",
+      "timestamp": "2025-10-05T11:38:54.9695081-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:53.484243-04:00",
+      "timestamp": "2025-10-05T11:38:55.1693928-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:53.683555-04:00",
+      "timestamp": "2025-10-05T11:38:55.3695555-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:53.8840823-04:00",
+      "timestamp": "2025-10-05T11:38:55.5692636-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:54.0841061-04:00",
+      "timestamp": "2025-10-05T11:38:55.7689219-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:54.2836741-04:00",
+      "timestamp": "2025-10-05T11:38:55.9695587-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:54.4837395-04:00",
+      "timestamp": "2025-10-05T11:38:56.1698615-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:54.6839389-04:00",
+      "timestamp": "2025-10-05T11:38:56.369753-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:54.8840012-04:00",
+      "timestamp": "2025-10-05T11:38:56.5694129-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:55.0835306-04:00",
+      "timestamp": "2025-10-05T11:38:56.7693205-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:55.284113-04:00",
+      "timestamp": "2025-10-05T11:38:56.9696549-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:55.4834421-04:00",
+      "timestamp": "2025-10-05T11:38:57.1694003-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:55.6839199-04:00",
+      "timestamp": "2025-10-05T11:38:57.3692514-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:55.8832866-04:00",
+      "timestamp": "2025-10-05T11:38:57.5695727-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:56.08348-04:00",
+      "timestamp": "2025-10-05T11:38:57.7698292-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:56.2834551-04:00",
+      "timestamp": "2025-10-05T11:38:57.9692229-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:56.4833423-04:00",
+      "timestamp": "2025-10-05T11:38:58.1692563-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:56.6837815-04:00",
+      "timestamp": "2025-10-05T11:38:58.369289-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:56.8833685-04:00",
+      "timestamp": "2025-10-05T11:38:58.5693947-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:57.0835151-04:00",
+      "timestamp": "2025-10-05T11:38:58.7689857-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:57.2840135-04:00",
+      "timestamp": "2025-10-05T11:38:58.9690781-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:57.4839033-04:00",
+      "timestamp": "2025-10-05T11:38:59.1691964-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:57.6835344-04:00",
+      "timestamp": "2025-10-05T11:38:59.3688423-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:57.8837156-04:00",
+      "timestamp": "2025-10-05T11:38:59.5697238-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:58.0836635-04:00",
+      "timestamp": "2025-10-05T11:38:59.7692578-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:58.2836826-04:00",
+      "timestamp": "2025-10-05T11:38:59.9693006-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:58.483678-04:00",
+      "timestamp": "2025-10-05T11:39:00.1694362-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:58.6835647-04:00",
+      "timestamp": "2025-10-05T11:39:00.3695584-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:58.8838493-04:00",
+      "timestamp": "2025-10-05T11:39:00.5696876-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:59.0839119-04:00",
+      "timestamp": "2025-10-05T11:39:00.769288-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:59.2839059-04:00",
+      "timestamp": "2025-10-05T11:39:00.9698335-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:59.4835584-04:00",
+      "timestamp": "2025-10-05T11:39:01.1697325-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:59.6836434-04:00",
+      "timestamp": "2025-10-05T11:39:01.3688935-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:39:59.8835285-04:00",
+      "timestamp": "2025-10-05T11:39:01.5692932-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:40:00.0840719-04:00",
+      "timestamp": "2025-10-05T11:39:01.7693833-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:40:00.2841631-04:00",
+      "timestamp": "2025-10-05T11:39:01.9694698-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:40:00.484145-04:00",
+      "timestamp": "2025-10-05T11:39:02.1693675-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:40:00.6839867-04:00",
+      "timestamp": "2025-10-05T11:39:02.3692589-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:40:00.8836378-04:00",
+      "timestamp": "2025-10-05T11:39:02.5692211-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:40:01.0841074-04:00",
+      "timestamp": "2025-10-05T11:39:02.769859-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:40:01.2836111-04:00",
+      "timestamp": "2025-10-05T11:39:02.9690781-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:40:01.4836195-04:00",
+      "timestamp": "2025-10-05T11:39:03.1690632-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:40:01.6832573-04:00",
+      "timestamp": "2025-10-05T11:39:03.3697189-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:40:01.8838645-04:00",
+      "timestamp": "2025-10-05T11:39:03.5696188-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:40:02.0835134-04:00",
+      "timestamp": "2025-10-05T11:39:03.7689745-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:40:02.2835391-04:00",
+      "timestamp": "2025-10-05T11:39:03.9691312-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:40:02.4841513-04:00",
+      "timestamp": "2025-10-05T11:39:04.1691003-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:40:02.6834211-04:00",
+      "timestamp": "2025-10-05T11:39:04.3692548-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:40:02.8834077-04:00",
+      "timestamp": "2025-10-05T11:39:04.5697916-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:40:03.0839725-04:00",
+      "timestamp": "2025-10-05T11:39:04.7698756-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:40:03.2836771-04:00",
+      "timestamp": "2025-10-05T11:39:04.969095-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:40:03.483278-04:00",
+      "timestamp": "2025-10-05T11:39:05.1690931-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:40:03.6841725-04:00",
+      "timestamp": "2025-10-05T11:39:05.3693826-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:40:03.8834181-04:00",
+      "timestamp": "2025-10-05T11:39:05.5692711-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:40:04.0836116-04:00",
+      "timestamp": "2025-10-05T11:39:05.7697876-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:40:04.283725-04:00",
+      "timestamp": "2025-10-05T11:39:05.9696948-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:40:04.4837935-04:00",
+      "timestamp": "2025-10-05T11:39:06.1691766-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0
     },
     {
-      "timestamp": "2025-10-04T00:40:04.6836357-04:00",
+      "timestamp": "2025-10-05T11:39:06.369062-04:00",
+      "num_gc": 1,
+      "pause_total_ns": 0,
+      "last_pause_ns": 0
+    },
+    {
+      "timestamp": "2025-10-05T11:39:06.5690557-04:00",
+      "num_gc": 1,
+      "pause_total_ns": 0,
+      "last_pause_ns": 0
+    },
+    {
+      "timestamp": "2025-10-05T11:39:06.7696703-04:00",
+      "num_gc": 1,
+      "pause_total_ns": 0,
+      "last_pause_ns": 0
+    },
+    {
+      "timestamp": "2025-10-05T11:39:06.9691937-04:00",
       "num_gc": 1,
       "pause_total_ns": 0,
       "last_pause_ns": 0

@@ -1,0 +1,27 @@
+{
+  "concurrent_result": {
+    "name": "Concurrent_25_agents",
+    "duration": 5598050600,
+    "total_trades": 175,
+    "trades_per_second": 31.260882136363687,
+    "avg_latency": 0,
+    "peak_memory_mb": 1.7747879028320312,
+    "max_goroutines": 56,
+    "cpu_utilization": 100,
+    "gc_pause_time_ms": 0
+  },
+  "sequential_result": {
+    "name": "Sequential_25_agents",
+    "duration": 5001187600,
+    "total_trades": 0,
+    "trades_per_second": 0,
+    "avg_latency": 0,
+    "peak_memory_mb": 1.85218505859375,
+    "max_goroutines": 10,
+    "cpu_utilization": 29.166666666666668,
+    "gc_pause_time_ms": 0
+  },
+  "speedup_ratio": 1,
+  "efficiency_gain": 0,
+  "memory_overhead": -4.178694531770042
+}
