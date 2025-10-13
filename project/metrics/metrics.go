@@ -11,16 +11,16 @@ import (
 // MetricsCollector tracks various performance metrics
 type MetricsCollector struct {
 	mutex               sync.RWMutex
-	startTime          time.Time
-	endTime            time.Time
-	totalTrades        int64
-	totalOrders        int64
-	totalCancellations int64
-	orderLatencies     []time.Duration
-	tradeLatencies     []time.Duration
-	memoryUsage        []MemorySnapshot
-	goroutineCount     []int
-	timestamps         []time.Time
+	startTime          time.Time            // time when collection started
+	endTime            time.Time            // time when collection stopped
+	totalTrades        int64                // counter for trades observed
+	totalOrders        int64                // counter for orders observed
+	totalCancellations int64                // counter for cancellations
+	orderLatencies     []time.Duration      // collected latencies for orders
+	tradeLatencies     []time.Duration      // collected latencies for trades
+	memoryUsage        []MemorySnapshot     // history of memory snapshots
+	goroutineCount     []int                 // history of goroutine counts
+	timestamps         []time.Time           // timestamps corresponding to snapshots
 	
 	// Go-specific metrics
 	gcStats            []GCSnapshot
@@ -148,6 +148,7 @@ func (mc *MetricsCollector) TakeSnapshot() {
 		Timestamp:    now,
 		NumGC:        memStats.NumGC,
 		PauseTotalNs: memStats.PauseTotalNs,
+		// LastPauseNs: get last pause safely using ring buffer index
 		LastPauseNs:  memStats.PauseNs[(memStats.NumGC+255)%256],
 	}
 	mc.gcStats = append(mc.gcStats, gcSnapshot)

@@ -18,7 +18,7 @@ func monteCarloIntegrate(a, b float64, n int) float64 {
 
 	for i := 0; i < n; i++ {
 		x := a + (b-a)*rand.Float64() // Generate random x in [a, b]
-		sum += f(x)                   // Evaluate f at x
+		sum += f(x)                   // Evaluate f at random x and accumulate
 	}
 
 	average := sum / float64(n)     // Calculate average
@@ -32,5 +32,6 @@ func main() {
 	n := 1000000 // Number of random points
 
 	result := monteCarloIntegrate(a, b, n)
+	// Print the Monte Carlo estimate (approximate)
 	fmt.Printf("Estimated integral of f(x) from %.2f to %.2f is %.5f\n", a, b, result)
 }

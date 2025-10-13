@@ -20,7 +20,8 @@ func TestMonteCarloIntegrate(t *testing.T) {
 	for _, tt := range tests {
 		t.Run(fmt.Sprintf("Integrating from %.2f to %.2f with %d points", tt.a, tt.b, tt.n), func(t *testing.T) {
 			got := monteCarloIntegrate(tt.a, tt.b, tt.n)
-			if got < tt.want*0.9 || got > tt.want*1.1 { // Allowing a 10% error margin
+			// Monte Carlo is probabilistic: allow a 10% error tolerance for large n
+			if got < tt.want*0.9 || got > tt.want*1.1 {
 				t.Errorf("got %v, want %v", got, tt.want)
 			}
 		})

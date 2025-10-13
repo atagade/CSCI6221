@@ -73,10 +73,12 @@ func TestScalabilityTest(t *testing.T) {
 	}
 	
 	for i, result := range results {
+		// Ensure sensible values (non-negative); detailed correctness is validated elsewhere
 		if result.TotalTrades < 0 {
 			t.Errorf("Test %d: Expected non-negative trades, got %d", i, result.TotalTrades)
 		}
-		
+        
+		// Log a concise summary for maintainers to inspect test outputs
 		t.Logf("Scalability test %d agents: %.2f trades/sec, %.2f MB peak memory", 
 			agentCounts[i], result.TradesPerSecond, result.PeakMemoryMB)
 	}

@@ -64,6 +64,7 @@ func RunConcurrentBenchmark(numAgents int, duration time.Duration) BenchmarkResu
 		go func(i int) {
 			defer wg.Done()
 			id := fmt.Sprintf("rand%d", i)
+			// instantiate a random strategy agent and start it as a goroutine
 			agent := agent.NewRandom(id, 100000, 100)
 			sim.AddAgent(id, &agent.BaseAgent)
 			agent.Run(ctx, sim)
@@ -76,6 +77,7 @@ func RunConcurrentBenchmark(numAgents int, duration time.Duration) BenchmarkResu
 		go func(i int) {
 			defer wg.Done()
 			id := fmt.Sprintf("mm%d", i)
+			// instantiate a market maker agent (places both sides)
 			agent := agent.NewMarketMaker(id, 100000, 100, 1.0)
 			sim.AddAgent(id, &agent.BaseAgent)
 			agent.Run(ctx, sim)
@@ -88,6 +90,7 @@ func RunConcurrentBenchmark(numAgents int, duration time.Duration) BenchmarkResu
 		go func(i int) {
 			defer wg.Done()
 			id := fmt.Sprintf("trend%d", i)
+			// instantiate a trend follower agent (uses EMA to trade)
 			agent := agent.NewTrendFollower(id, 100000, 100, 0.1)
 			sim.AddAgent(id, &agent.BaseAgent)
 			agent.Run(ctx, sim)

@@ -17,9 +17,11 @@ func TestMatchLimit(t *testing.T) {
 	trades := ob.Submit(o2)
 
 	if len(trades) != 1 {
+		// Expect exactly one match for the limit orders
 		t.Errorf("expected 1 trade, got %d", len(trades))
 	}
 	if trades[0].Quantity != 5 || trades[0].Price != 100 {
+		// Verify trade price and filled quantity are correct (FIFO behavior)
 		t.Error("trade mismatch")
 	}
 	if ob.GetLastPrice() != 100 {
@@ -40,9 +42,11 @@ func TestMatchMarket(t *testing.T) {
 	trades := ob.Submit(o2)
 
 	if len(trades) != 1 {
+		// Market buy against single limit sell should generate one trade with partial/full fill
 		t.Errorf("expected 1 trade, got %d", len(trades))
 	}
 	if trades[0].Quantity != 10 {
+		// Market buy of 15 should fill 10 at existing ask, remaining unfilled
 		t.Error("should fill 10, rest canceled for IOC")
 	}
 	if ob.GetBestAsk() != 0 {
@@ -58,6 +62,7 @@ func TestCancel(t *testing.T) {
 
 	canceled := ob.Cancel("1")
 	if !canceled {
+		// Cancel must return true for an existing order
 		t.Error("cancel failed")
 	}
 
@@ -78,6 +83,7 @@ func TestPartialFill(t *testing.T) {
 	trades := ob.Submit(o2)
 
 	if len(trades) != 1 {
+		// Partial fill case: one trade for partial quantity
 		t.Errorf("expected 1 trade, got %d", len(trades))
 	}
 	if trades[0].Quantity != 7 {
