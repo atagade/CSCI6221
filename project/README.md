@@ -1,5 +1,6 @@
 # Continuous Double-Auction (CDA) Exchange Simulator
 
+
 A high-performance, concurrent Continuous Double-Auction exchange simulator implemented in Go, demonstrating advanced market microstructure simulation with autonomous trading agents and real-time order matching.
 
 ## 🎯 Project Overview
@@ -1091,3 +1092,59 @@ Whether used for academic research, performance benchmarking, algorithm developm
 ---
 
 **For questions, contributions, or extended research collaborations, please refer to the project documentation or contact the development team.**
+
+
+
+
+---
+---
+---
+
+
+
+## ▶️ Quick run & visualization checklist (concise)
+
+
+1. Build and run the simulator (simple run):
+
+```powershell
+cd project
+go run main.go
+```
+
+1. Run the built-in evaluation runner (examples):
+
+```powershell
+# Quick evaluation
+go run cmd/evaluation_runner.go --quick
+
+# Full benchmark suite (may take longer)
+go run cmd/evaluation_runner.go --full-benchmark --output=evaluation_results
+```
+
+1. Generate visualization charts (Python required):
+
+```powershell
+cd project
+pip install -r visualizations/requirements.txt
+python visualizations/performance_visualizer.py evaluation_results/full_benchmark_comparison.json
+```
+
+Notes:
+
+- On Windows PowerShell, running the supplied `run_evaluation.ps1` script may be blocked by execution policy. If needed, run PowerShell as Administrator and set an appropriate policy (for example: `Set-ExecutionPolicy RemoteSigned`) or run the evaluation runner manually as shown above.
+- Python dependencies for the visualizer are in `project/visualizations/requirements.txt` (matplotlib, numpy, pandas, seaborn).
+
+## 🧪 Tests & validation
+
+Run all Go tests and the benchmarks (where present):
+
+```powershell
+cd project
+go test ./...
+go test -bench=. ./evaluation
+```
+
+If you want linting or further static checks, consider running `golangci-lint` (not included here by default).
+
+---
